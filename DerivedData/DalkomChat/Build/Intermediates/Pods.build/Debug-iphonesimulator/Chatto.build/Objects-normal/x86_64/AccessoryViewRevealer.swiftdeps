@@ -1,0 +1,506 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AccessoryViewRevealable"
+- "AccessoryViewRevealer"
+provides-nominal:
+- "P6Chatto23AccessoryViewRevealable"
+- "C6Chatto21AccessoryViewRevealer"
+provides-member:
+- ["P6Chatto23AccessoryViewRevealable", ""]
+- ["C6Chatto21AccessoryViewRevealer", ""]
+provides-dynamic-lookup:
+- "handlePan"
+- "gestureRecognizerShouldBegin"
+- "gestureRecognizer"
+depends-top-level:
+- "CGFloat"
+- "UIGestureRecognizerDelegate"
+- "NSObject"
+- "UICollectionView"
+- !private "atan2"
+- "Bool"
+- !private "BooleanLiteralType"
+- "UIGestureRecognizer"
+- "AccessoryViewRevealer"
+- !private "=="
+- !private "-"
+- "UIPanGestureRecognizer"
+- "AccessoryViewRevealable"
+- !private "StringLiteralType"
+- !private "!="
+- !private "<"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "abs"]
+- ["P6Chatto23AccessoryViewRevealable", "Bool"]
+- ["P6Chatto23AccessoryViewRevealable", "CGFloat"]
+- ["P6Chatto23AccessoryViewRevealable", "revealAccessoryView"]
+- !private ["C6Chatto21AccessoryViewRevealer", "AccessoryViewRevealable"]
+- ["C6Chatto21AccessoryViewRevealer", "Bool"]
+- !private ["C6Chatto21AccessoryViewRevealer", "CGFloat"]
+- ["C6Chatto21AccessoryViewRevealer", "UICollectionView"]
+- ["C6Chatto21AccessoryViewRevealer", "UIGestureRecognizer"]
+- ["C6Chatto21AccessoryViewRevealer", "UIPanGestureRecognizer"]
+- !private ["C6Chatto21AccessoryViewRevealer", "atan2"]
+- !private ["C6Chatto21AccessoryViewRevealer", "collectionView"]
+- ["C6Chatto21AccessoryViewRevealer", "deinit"]
+- ["C6Chatto21AccessoryViewRevealer", "gestureRecognizer"]
+- ["C6Chatto21AccessoryViewRevealer", "gestureRecognizerShouldBegin"]
+- !private ["C6Chatto21AccessoryViewRevealer", "handlePan"]
+- ["C6Chatto21AccessoryViewRevealer", "init"]
+- !private ["C6Chatto21AccessoryViewRevealer", "panRecognizer"]
+- !private ["C6Chatto21AccessoryViewRevealer", "revealAccessoryView"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- ["Ps9AnyObject", "UIPanGestureRecognizer"]
+- !private ["Ps9AnyObject", "addGestureRecognizer"]
+- !private ["Ps9AnyObject", "addTarget"]
+- !private ["Ps9AnyObject", "atan2"]
+- ["Ps9AnyObject", "collectionView"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "gestureRecognizer"]
+- ["Ps9AnyObject", "gestureRecognizerShouldBegin"]
+- ["Ps9AnyObject", "handlePan"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "panRecognizer"]
+- ["Ps9AnyObject", "revealAccessoryView"]
+- !private ["Ps9AnyObject", "state"]
+- !private ["Ps9AnyObject", "translationInView"]
+- !private ["Ps9AnyObject", "visibleCells"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "abs"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["Ps11CVarArgType", "CGFloat"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- ["Ps11CVarArgType", "UIPanGestureRecognizer"]
+- !private ["Ps11CVarArgType", "abs"]
+- !private ["Ps11CVarArgType", "addGestureRecognizer"]
+- !private ["Ps11CVarArgType", "addTarget"]
+- !private ["Ps11CVarArgType", "atan2"]
+- ["Ps11CVarArgType", "collectionView"]
+- !private ["Ps11CVarArgType", "delegate"]
+- ["Ps11CVarArgType", "gestureRecognizer"]
+- ["Ps11CVarArgType", "gestureRecognizerShouldBegin"]
+- ["Ps11CVarArgType", "handlePan"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "panRecognizer"]
+- ["Ps11CVarArgType", "revealAccessoryView"]
+- !private ["Ps11CVarArgType", "state"]
+- !private ["Ps11CVarArgType", "translationInView"]
+- !private ["Ps11CVarArgType", "visibleCells"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "abs"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- ["Ps28CustomDebugStringConvertible", "UIPanGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "addGestureRecognizer"]
+- !private ["Ps28CustomDebugStringConvertible", "addTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "atan2"]
+- ["Ps28CustomDebugStringConvertible", "collectionView"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "gestureRecognizer"]
+- ["Ps28CustomDebugStringConvertible", "gestureRecognizerShouldBegin"]
+- ["Ps28CustomDebugStringConvertible", "handlePan"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "panRecognizer"]
+- ["Ps28CustomDebugStringConvertible", "revealAccessoryView"]
+- !private ["Ps28CustomDebugStringConvertible", "state"]
+- !private ["Ps28CustomDebugStringConvertible", "translationInView"]
+- !private ["Ps28CustomDebugStringConvertible", "visibleCells"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- ["Ps23CustomStringConvertible", "UIPanGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "abs"]
+- !private ["Ps23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["Ps23CustomStringConvertible", "addTarget"]
+- !private ["Ps23CustomStringConvertible", "atan2"]
+- ["Ps23CustomStringConvertible", "collectionView"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "gestureRecognizer"]
+- ["Ps23CustomStringConvertible", "gestureRecognizerShouldBegin"]
+- ["Ps23CustomStringConvertible", "handlePan"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "panRecognizer"]
+- ["Ps23CustomStringConvertible", "revealAccessoryView"]
+- !private ["Ps23CustomStringConvertible", "state"]
+- !private ["Ps23CustomStringConvertible", "translationInView"]
+- !private ["Ps23CustomStringConvertible", "visibleCells"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Began"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "Cancelled"]
+- !private ["Ps9Equatable", "Changed"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "Ended"]
+- !private ["Ps9Equatable", "Failed"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- ["Ps9Equatable", "UIPanGestureRecognizer"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "abs"]
+- !private ["Ps9Equatable", "addGestureRecognizer"]
+- !private ["Ps9Equatable", "addTarget"]
+- !private ["Ps9Equatable", "atan2"]
+- ["Ps9Equatable", "collectionView"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "gestureRecognizer"]
+- ["Ps9Equatable", "gestureRecognizerShouldBegin"]
+- ["Ps9Equatable", "handlePan"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "panRecognizer"]
+- ["Ps9Equatable", "revealAccessoryView"]
+- !private ["Ps9Equatable", "state"]
+- !private ["Ps9Equatable", "translationInView"]
+- !private ["Ps9Equatable", "visibleCells"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps23FloatLiteralConvertible", "abs"]
+- !private ["Ps17FloatingPointType", "abs"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Began"]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "Cancelled"]
+- !private ["Ps8Hashable", "Changed"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "Ended"]
+- !private ["Ps8Hashable", "Failed"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- ["Ps8Hashable", "UIPanGestureRecognizer"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "abs"]
+- !private ["Ps8Hashable", "addGestureRecognizer"]
+- !private ["Ps8Hashable", "addTarget"]
+- !private ["Ps8Hashable", "atan2"]
+- ["Ps8Hashable", "collectionView"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "gestureRecognizer"]
+- ["Ps8Hashable", "gestureRecognizerShouldBegin"]
+- ["Ps8Hashable", "handlePan"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "panRecognizer"]
+- ["Ps8Hashable", "revealAccessoryView"]
+- !private ["Ps8Hashable", "state"]
+- !private ["Ps8Hashable", "translationInView"]
+- !private ["Ps8Hashable", "visibleCells"]
+- ["Ps8Hashable", ""]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "abs"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- !private ["PSo8NSCoding", "visibleCells"]
+- !private ["CSo8NSObject", "AccessoryViewRevealable"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "UICollectionView"]
+- ["CSo8NSObject", "UIGestureRecognizer"]
+- ["CSo8NSObject", "UIPanGestureRecognizer"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "atan2"]
+- ["CSo8NSObject", "collectionView"]
+- !private ["CSo8NSObject", "deinit"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "gestureRecognizer"]
+- ["CSo8NSObject", "gestureRecognizerShouldBegin"]
+- ["CSo8NSObject", "handlePan"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "panRecognizer"]
+- ["CSo8NSObject", "revealAccessoryView"]
+- !private ["CSo8NSObject", "state"]
+- !private ["CSo8NSObject", "translationInView"]
+- !private ["CSo8NSObject", "visibleCells"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- ["PSo16NSObjectProtocol", "UIPanGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "atan2"]
+- ["PSo16NSObjectProtocol", "collectionView"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "gestureRecognizer"]
+- ["PSo16NSObjectProtocol", "gestureRecognizerShouldBegin"]
+- ["PSo16NSObjectProtocol", "handlePan"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "panRecognizer"]
+- ["PSo16NSObjectProtocol", "revealAccessoryView"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- !private ["PSo16NSObjectProtocol", "translationInView"]
+- !private ["PSo16NSObjectProtocol", "visibleCells"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps16RawRepresentable", "Began"]
+- !private ["Ps16RawRepresentable", "Cancelled"]
+- !private ["Ps16RawRepresentable", "Changed"]
+- !private ["Ps16RawRepresentable", "Ended"]
+- !private ["Ps16RawRepresentable", "Failed"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "abs"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "abs"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "visibleCells"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "visibleCells"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "visibleCells"]
+- !private ["CSo16UICollectionView", "addGestureRecognizer"]
+- !private ["CSo16UICollectionView", "visibleCells"]
+- !private ["CSo20UICollectionViewCell", "deinit"]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "visibleCells"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "visibleCells"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "visibleCells"]
+- !private ["CSo19UIGestureRecognizer", "addTarget"]
+- !private ["CSo19UIGestureRecognizer", "deinit"]
+- !private ["CSo19UIGestureRecognizer", "delegate"]
+- ["CSo19UIGestureRecognizer", "init"]
+- !private ["CSo19UIGestureRecognizer", "state"]
+- !private ["CSo19UIGestureRecognizer", "translationInView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "CGFloat"]
+- ["PSo27UIGestureRecognizerDelegate", "UIPanGestureRecognizer"]
+- !private ["PSo27UIGestureRecognizerDelegate", "atan2"]
+- !private ["PSo27UIGestureRecognizerDelegate", "collectionView"]
+- ["PSo27UIGestureRecognizerDelegate", "gestureRecognizer"]
+- ["PSo27UIGestureRecognizerDelegate", "gestureRecognizerShouldBegin"]
+- !private ["PSo27UIGestureRecognizerDelegate", "handlePan"]
+- !private ["PSo27UIGestureRecognizerDelegate", "panRecognizer"]
+- !private ["PSo27UIGestureRecognizerDelegate", "revealAccessoryView"]
+- ["PSo27UIGestureRecognizerDelegate", ""]
+- !private ["OSC24UIGestureRecognizerState", "Began"]
+- !private ["OSC24UIGestureRecognizerState", "Cancelled"]
+- !private ["OSC24UIGestureRecognizerState", "Changed"]
+- !private ["OSC24UIGestureRecognizerState", "Ended"]
+- !private ["OSC24UIGestureRecognizerState", "Failed"]
+- !private ["CSo22UIPanGestureRecognizer", "addTarget"]
+- !private ["CSo22UIPanGestureRecognizer", "deinit"]
+- !private ["CSo22UIPanGestureRecognizer", "delegate"]
+- ["CSo22UIPanGestureRecognizer", "init"]
+- !private ["CSo22UIPanGestureRecognizer", "state"]
+- !private ["CSo22UIPanGestureRecognizer", "translationInView"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- !private ["CSo11UIResponder", "visibleCells"]
+- !private ["CSo12UIScrollView", "addGestureRecognizer"]
+- !private ["CSo12UIScrollView", "visibleCells"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "visibleCells"]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- !private ["CSo6UIView", "visibleCells"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps19_CVarArgAlignedType", "abs"]
+- !private ["Ps22_CVarArgPassedAsDouble", "abs"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "abs"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "abs"]
+- !private ["Ps12_Reflectable", "addGestureRecognizer"]
+- !private ["Ps12_Reflectable", "visibleCells"]
+- !private ["Ps12_Reflectable", "x"]
+- !private ["Ps12_Reflectable", "y"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "P6Chatto23AccessoryViewRevealable"
+- "C6Chatto21AccessoryViewRevealer"
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "V10ObjectiveC8Selector"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo16UICollectionView"
+- !private "CSo20UICollectionViewCell"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- "CSo19UIGestureRecognizer"
+- "PSo27UIGestureRecognizerDelegate"
+- !private "OSC24UIGestureRecognizerState"
+- "CSo22UIPanGestureRecognizer"
+- !private "CSo11UIResponder"
+- !private "CSo12UIScrollView"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "0661be20f12a3ba0c8d86dfead573642"

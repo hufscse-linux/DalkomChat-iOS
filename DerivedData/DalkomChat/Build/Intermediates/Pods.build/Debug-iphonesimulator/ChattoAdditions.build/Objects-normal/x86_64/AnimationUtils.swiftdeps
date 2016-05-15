@@ -1,0 +1,201 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo16CABasicAnimation", ""]
+- ["CSo16CABasicAnimation", "bma_fadeInAnimationWithDuration"]
+provides-dynamic-lookup:
+- "bma_fadeInAnimationWithDuration"
+depends-top-level:
+- !private "StringLiteralType"
+- "CFTimeInterval"
+- !private "BooleanLiteralType"
+- "CABasicAnimation"
+- !private "kCAFillModeForwards"
+depends-member:
+- !private ["Ps9AnyObject", "CABasicAnimation"]
+- !private ["Ps9AnyObject", "additive"]
+- ["Ps9AnyObject", "bma_fadeInAnimationWithDuration"]
+- !private ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "fillMode"]
+- !private ["Ps9AnyObject", "fromValue"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "kCAFillModeForwards"]
+- !private ["Ps9AnyObject", "toValue"]
+- !private ["PSo8CAAction", "CABasicAnimation"]
+- !private ["PSo8CAAction", "additive"]
+- ["PSo8CAAction", "bma_fadeInAnimationWithDuration"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "fillMode"]
+- !private ["PSo8CAAction", "fromValue"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "kCAFillModeForwards"]
+- !private ["PSo8CAAction", "toValue"]
+- ["CSo11CAAnimation", "CABasicAnimation"]
+- ["CSo11CAAnimation", "CFTimeInterval"]
+- !private ["CSo11CAAnimation", "additive"]
+- ["CSo11CAAnimation", "bma_fadeInAnimationWithDuration"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "fillMode"]
+- !private ["CSo11CAAnimation", "fromValue"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "kCAFillModeForwards"]
+- !private ["CSo11CAAnimation", "toValue"]
+- ["CSo16CABasicAnimation", "CABasicAnimation"]
+- ["CSo16CABasicAnimation", "CFTimeInterval"]
+- !private ["CSo16CABasicAnimation", "additive"]
+- ["CSo16CABasicAnimation", "bma_fadeInAnimationWithDuration"]
+- !private ["CSo16CABasicAnimation", "duration"]
+- !private ["CSo16CABasicAnimation", "fillMode"]
+- !private ["CSo16CABasicAnimation", "fromValue"]
+- !private ["CSo16CABasicAnimation", "init"]
+- !private ["CSo16CABasicAnimation", "kCAFillModeForwards"]
+- !private ["CSo16CABasicAnimation", "toValue"]
+- !private ["PSo13CAMediaTiming", "CABasicAnimation"]
+- !private ["PSo13CAMediaTiming", "additive"]
+- ["PSo13CAMediaTiming", "bma_fadeInAnimationWithDuration"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "fillMode"]
+- !private ["PSo13CAMediaTiming", "fromValue"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "kCAFillModeForwards"]
+- !private ["PSo13CAMediaTiming", "toValue"]
+- ["CSo19CAPropertyAnimation", "CABasicAnimation"]
+- ["CSo19CAPropertyAnimation", "CFTimeInterval"]
+- !private ["CSo19CAPropertyAnimation", "additive"]
+- ["CSo19CAPropertyAnimation", "bma_fadeInAnimationWithDuration"]
+- !private ["CSo19CAPropertyAnimation", "duration"]
+- !private ["CSo19CAPropertyAnimation", "fillMode"]
+- !private ["CSo19CAPropertyAnimation", "fromValue"]
+- !private ["CSo19CAPropertyAnimation", "init"]
+- !private ["CSo19CAPropertyAnimation", "kCAFillModeForwards"]
+- !private ["CSo19CAPropertyAnimation", "toValue"]
+- !private ["Ps11CVarArgType", "CABasicAnimation"]
+- !private ["Ps11CVarArgType", "additive"]
+- ["Ps11CVarArgType", "bma_fadeInAnimationWithDuration"]
+- !private ["Ps11CVarArgType", "duration"]
+- !private ["Ps11CVarArgType", "fillMode"]
+- !private ["Ps11CVarArgType", "fromValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "kCAFillModeForwards"]
+- !private ["Ps11CVarArgType", "toValue"]
+- !private ["Ps28CustomDebugStringConvertible", "CABasicAnimation"]
+- !private ["Ps28CustomDebugStringConvertible", "additive"]
+- ["Ps28CustomDebugStringConvertible", "bma_fadeInAnimationWithDuration"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- !private ["Ps28CustomDebugStringConvertible", "fillMode"]
+- !private ["Ps28CustomDebugStringConvertible", "fromValue"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "kCAFillModeForwards"]
+- !private ["Ps28CustomDebugStringConvertible", "toValue"]
+- !private ["Ps23CustomStringConvertible", "CABasicAnimation"]
+- !private ["Ps23CustomStringConvertible", "additive"]
+- ["Ps23CustomStringConvertible", "bma_fadeInAnimationWithDuration"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- !private ["Ps23CustomStringConvertible", "fillMode"]
+- !private ["Ps23CustomStringConvertible", "fromValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "kCAFillModeForwards"]
+- !private ["Ps23CustomStringConvertible", "toValue"]
+- !private ["Ps9Equatable", "CABasicAnimation"]
+- !private ["Ps9Equatable", "additive"]
+- ["Ps9Equatable", "bma_fadeInAnimationWithDuration"]
+- !private ["Ps9Equatable", "duration"]
+- !private ["Ps9Equatable", "fillMode"]
+- !private ["Ps9Equatable", "fromValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "kCAFillModeForwards"]
+- !private ["Ps9Equatable", "toValue"]
+- !private ["Ps8Hashable", "CABasicAnimation"]
+- !private ["Ps8Hashable", "additive"]
+- ["Ps8Hashable", "bma_fadeInAnimationWithDuration"]
+- !private ["Ps8Hashable", "duration"]
+- !private ["Ps8Hashable", "fillMode"]
+- !private ["Ps8Hashable", "fromValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "kCAFillModeForwards"]
+- !private ["Ps8Hashable", "toValue"]
+- !private ["Si", "deinit"]
+- !private ["PSo8NSCoding", "CABasicAnimation"]
+- !private ["PSo8NSCoding", "additive"]
+- ["PSo8NSCoding", "bma_fadeInAnimationWithDuration"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "fillMode"]
+- !private ["PSo8NSCoding", "fromValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "kCAFillModeForwards"]
+- !private ["PSo8NSCoding", "toValue"]
+- !private ["PSo9NSCopying", "CABasicAnimation"]
+- !private ["PSo9NSCopying", "additive"]
+- ["PSo9NSCopying", "bma_fadeInAnimationWithDuration"]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "fillMode"]
+- !private ["PSo9NSCopying", "fromValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "kCAFillModeForwards"]
+- !private ["PSo9NSCopying", "toValue"]
+- ["CSo8NSObject", "CABasicAnimation"]
+- ["CSo8NSObject", "CFTimeInterval"]
+- !private ["CSo8NSObject", "additive"]
+- ["CSo8NSObject", "bma_fadeInAnimationWithDuration"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "fillMode"]
+- !private ["CSo8NSObject", "fromValue"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "kCAFillModeForwards"]
+- !private ["CSo8NSObject", "toValue"]
+- !private ["PSo16NSObjectProtocol", "CABasicAnimation"]
+- !private ["PSo16NSObjectProtocol", "additive"]
+- ["PSo16NSObjectProtocol", "bma_fadeInAnimationWithDuration"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "fillMode"]
+- !private ["PSo16NSObjectProtocol", "fromValue"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "kCAFillModeForwards"]
+- !private ["PSo16NSObjectProtocol", "toValue"]
+- !private ["Sq", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "PSo8CAAction"
+- "CSo11CAAnimation"
+- "CSo16CABasicAnimation"
+- "PSo13CAMediaTiming"
+- "CSo19CAPropertyAnimation"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "Si"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "69679916ac33ad49be3ac45879bbb48a"

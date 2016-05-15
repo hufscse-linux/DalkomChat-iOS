@@ -1,0 +1,1 @@
+ const unsigned char Pods_DalkomChatVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_DalkomChat  PROJECT:Pods-1" "\n"; const double Pods_DalkomChatVersionNumber __attribute__ ((used)) = (double)1.;

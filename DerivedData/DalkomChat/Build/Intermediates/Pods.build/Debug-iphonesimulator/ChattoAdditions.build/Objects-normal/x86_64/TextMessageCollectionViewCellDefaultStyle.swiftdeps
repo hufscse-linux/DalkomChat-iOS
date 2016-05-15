@@ -1,0 +1,416 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextMessageCollectionViewCellDefaultStyle"
+provides-nominal:
+- "C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle"
+provides-member:
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIFont"
+- !private "StringLiteralType"
+- "UIImage"
+- !private "NSString"
+- !private "UnicodeScalarType"
+- "TextMessageViewModelProtocol"
+- "TextMessageCollectionViewCellStyleProtocol"
+- !private "MessageViewModelStatus"
+- !private "Dictionary"
+- "Bool"
+- "UIColor"
+- "TextMessageCollectionViewCellDefaultStyle"
+- !private "NSBundle"
+- "String"
+- !private "assert"
+- "BaseMessageCollectionViewCellDefaultSyle"
+- !private "BooleanLiteralType"
+- "UIEdgeInsets"
+depends-member:
+- ["Ps9AnyObject", "BaseMessageCollectionViewCellDefaultSyle"]
+- !private ["Ps9AnyObject", "NSBundle"]
+- !private ["Ps9AnyObject", "TextMessageCollectionViewCellDefaultStyle"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "UIEdgeInsets"]
+- ["Ps9AnyObject", "UIFont"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "baseColorIncoming"]
+- !private ["Ps9AnyObject", "baseColorOutgoing"]
+- !private ["Ps9AnyObject", "baseStyle"]
+- !private ["Ps9AnyObject", "blackColor"]
+- !private ["Ps9AnyObject", "bma_blendWithColor"]
+- !private ["Ps9AnyObject", "bma_tintWithColor"]
+- !private ["Ps9AnyObject", "borderImage"]
+- ["Ps9AnyObject", "bubbleImage"]
+- ["Ps9AnyObject", "bubbleImageBorder"]
+- !private ["Ps9AnyObject", "colorWithAlphaComponent"]
+- !private ["Ps9AnyObject", "createImage"]
+- !private ["Ps9AnyObject", "font"]
+- !private ["Ps9AnyObject", "imageKey"]
+- !private ["Ps9AnyObject", "images"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "statusKey"]
+- ["Ps9AnyObject", "systemFontOfSize"]
+- !private ["Ps9AnyObject", "templateKey"]
+- ["Ps9AnyObject", "textColor"]
+- ["Ps9AnyObject", "textFont"]
+- ["Ps9AnyObject", "textInsets"]
+- !private ["Ps9AnyObject", "whiteColor"]
+- ["Ps9AnyObject", ""]
+- !private ["C15ChattoAdditions40BaseMessageCollectionViewCellDefaultSyle", "baseColorIncoming"]
+- !private ["C15ChattoAdditions40BaseMessageCollectionViewCellDefaultSyle", "baseColorOutgoing"]
+- !private ["C15ChattoAdditions40BaseMessageCollectionViewCellDefaultSyle", "borderImage"]
+- ["C15ChattoAdditions40BaseMessageCollectionViewCellDefaultSyle", "init"]
+- !private ["P15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocol", "baseColorIncoming"]
+- !private ["P15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocol", "baseColorOutgoing"]
+- !private ["P15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocol", "borderImage"]
+- ["P15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocol", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "blackColor"]
+- !private ["Ps11CVarArgType", "bma_blendWithColor"]
+- !private ["Ps11CVarArgType", "bma_tintWithColor"]
+- !private ["Ps11CVarArgType", "colorWithAlphaComponent"]
+- !private ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "systemFontOfSize"]
+- !private ["Ps11CVarArgType", "whiteColor"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "Key"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "Value"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "Key"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "Value"]
+- !private ["Ps28CustomDebugStringConvertible", "blackColor"]
+- !private ["Ps28CustomDebugStringConvertible", "bma_blendWithColor"]
+- !private ["Ps28CustomDebugStringConvertible", "bma_tintWithColor"]
+- !private ["Ps28CustomDebugStringConvertible", "colorWithAlphaComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "systemFontOfSize"]
+- !private ["Ps28CustomDebugStringConvertible", "whiteColor"]
+- !private ["Ps23CustomStringConvertible", "Key"]
+- !private ["Ps23CustomStringConvertible", "Value"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "blackColor"]
+- !private ["Ps23CustomStringConvertible", "bma_blendWithColor"]
+- !private ["Ps23CustomStringConvertible", "bma_tintWithColor"]
+- !private ["Ps23CustomStringConvertible", "colorWithAlphaComponent"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "systemFontOfSize"]
+- !private ["Ps23CustomStringConvertible", "whiteColor"]
+- !private ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "deinit"]
+- !private ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "isIncoming"]
+- !private ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "showsTail"]
+- !private ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "status"]
+- !private ["Vs10Dictionary", "Key"]
+- !private ["Vs10Dictionary", "Value"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps28DictionaryLiteralConvertible", "Key"]
+- !private ["Ps28DictionaryLiteralConvertible", "Value"]
+- !private ["Ps28DictionaryLiteralConvertible", "subscript"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Failed"]
+- !private ["Ps9Equatable", "Sending"]
+- !private ["Ps9Equatable", "Success"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "blackColor"]
+- !private ["Ps9Equatable", "bma_blendWithColor"]
+- !private ["Ps9Equatable", "bma_tintWithColor"]
+- !private ["Ps9Equatable", "colorWithAlphaComponent"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "systemFontOfSize"]
+- !private ["Ps9Equatable", "whiteColor"]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "Failed"]
+- !private ["Ps8Hashable", "Sending"]
+- !private ["Ps8Hashable", "Success"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "blackColor"]
+- !private ["Ps8Hashable", "bma_blendWithColor"]
+- !private ["Ps8Hashable", "bma_tintWithColor"]
+- !private ["Ps8Hashable", "colorWithAlphaComponent"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "systemFontOfSize"]
+- !private ["Ps8Hashable", "whiteColor"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Key"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "Value"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["P15ChattoAdditions24MessageViewModelProtocol", "isIncoming"]
+- !private ["P15ChattoAdditions24MessageViewModelProtocol", "showsTail"]
+- !private ["P15ChattoAdditions24MessageViewModelProtocol", "status"]
+- !private ["O15ChattoAdditions22MessageViewModelStatus", "Failed"]
+- !private ["O15ChattoAdditions22MessageViewModelStatus", "Sending"]
+- !private ["O15ChattoAdditions22MessageViewModelStatus", "Success"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["CSo8NSBundle", "init"]
+- !private ["PSo8NSCoding", "blackColor"]
+- !private ["PSo8NSCoding", "bma_blendWithColor"]
+- !private ["PSo8NSCoding", "bma_tintWithColor"]
+- !private ["PSo8NSCoding", "colorWithAlphaComponent"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- !private ["PSo9NSCopying", "blackColor"]
+- !private ["PSo9NSCopying", "bma_blendWithColor"]
+- !private ["PSo9NSCopying", "colorWithAlphaComponent"]
+- !private ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "systemFontOfSize"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "blackColor"]
+- !private ["CSo8NSObject", "bma_blendWithColor"]
+- !private ["CSo8NSObject", "bma_tintWithColor"]
+- !private ["CSo8NSObject", "colorWithAlphaComponent"]
+- !private ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "systemFontOfSize"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "blackColor"]
+- !private ["PSo16NSObjectProtocol", "bma_blendWithColor"]
+- !private ["PSo16NSObjectProtocol", "bma_tintWithColor"]
+- !private ["PSo16NSObjectProtocol", "colorWithAlphaComponent"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "systemFontOfSize"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- !private ["PSo14NSSecureCoding", "blackColor"]
+- !private ["PSo14NSSecureCoding", "bma_blendWithColor"]
+- !private ["PSo14NSSecureCoding", "bma_tintWithColor"]
+- !private ["PSo14NSSecureCoding", "colorWithAlphaComponent"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["CSo8NSString", "deinit"]
+- !private ["CSo8NSString", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "Key"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "Value"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "BaseMessageCollectionViewCellDefaultSyle"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "NSBundle"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "TextMessageCollectionViewCellDefaultStyle"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "UIColor"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "UIEdgeInsets"]
+- ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "UIFont"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "UIImage"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "assert"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "baseStyle"]
+- ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "bubbleImage"]
+- ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "bubbleImageBorder"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "createImage"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "font"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "imageKey"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "images"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "statusKey"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "templateKey"]
+- ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "textColor"]
+- ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "textFont"]
+- ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "textInsets"]
+- ["P15ChattoAdditions27TextBubbleViewStyleProtocol", ""]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "BaseMessageCollectionViewCellDefaultSyle"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "Bool"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "MessageViewModelStatus"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "NSBundle"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "NSString"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "String"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "TextMessageCollectionViewCellDefaultStyle"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "TextMessageViewModelProtocol"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "UIColor"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "UIEdgeInsets"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "UIFont"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "UIImage"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "assert"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "baseStyle"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "baseStyle.storage"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "bubbleImage"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "bubbleImageBorder"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "createImage"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "deinit"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "font"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "font.storage"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "imageKey"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "images"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "images.storage"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "init"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "statusKey"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "templateKey"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "textColor"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "textFont"]
+- ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "textInsets"]
+- !private ["P15ChattoAdditions28TextMessageViewModelProtocol", "isIncoming"]
+- !private ["P15ChattoAdditions28TextMessageViewModelProtocol", "showsTail"]
+- !private ["P15ChattoAdditions28TextMessageViewModelProtocol", "status"]
+- !private ["PSo29UIAccessibilityIdentification", "bma_tintWithColor"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIColor", "blackColor"]
+- !private ["CSo7UIColor", "bma_blendWithColor"]
+- !private ["CSo7UIColor", "colorWithAlphaComponent"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["VSC12UIEdgeInsets", "init"]
+- ["CSo6UIFont", "systemFontOfSize"]
+- !private ["CSo7UIImage", "bma_tintWithColor"]
+- !private ["CSo7UIImage", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_ColorLiteralConvertible", "blackColor"]
+- !private ["Ps24_ColorLiteralConvertible", "bma_blendWithColor"]
+- !private ["Ps24_ColorLiteralConvertible", "colorWithAlphaComponent"]
+- !private ["Ps24_ColorLiteralConvertible", "whiteColor"]
+- !private ["Ps24_ImageLiteralConvertible", "bma_tintWithColor"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Key"]
+- !private ["Ps21_ObjectiveCBridgeable", "Value"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps12_Reflectable", "Key"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "Value"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C15ChattoAdditions40BaseMessageCollectionViewCellDefaultSyle"
+- "P15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocol"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "P15ChattoAdditions33DecoratedMessageViewModelProtocol"
+- !private "Vs10Dictionary"
+- !private "Ps28DictionaryLiteralConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "P15ChattoAdditions24MessageViewModelProtocol"
+- !private "O15ChattoAdditions22MessageViewModelStatus"
+- !private "Ps14MirrorPathType"
+- !private "CSo8NSBundle"
+- !private "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps12SequenceType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "P15ChattoAdditions27TextBubbleViewStyleProtocol"
+- "C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle"
+- !private "P15ChattoAdditions28TextMessageViewModelProtocol"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIColor"
+- !private "VSC12UIEdgeInsets"
+- "CSo6UIFont"
+- !private "CSo7UIImage"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_ColorLiteralConvertible"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "baeeac2e6a29a56c54c260f17107cb9d"

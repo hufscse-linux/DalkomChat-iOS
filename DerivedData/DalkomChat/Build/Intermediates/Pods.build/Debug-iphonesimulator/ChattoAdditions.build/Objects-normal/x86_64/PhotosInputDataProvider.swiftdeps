@@ -1,0 +1,311 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotosInputDataProviderProtocol"
+- "PhotosInputPlaceholderDataProvider"
+- "PhotosInputDataProvider"
+provides-nominal:
+- "P15ChattoAdditions31PhotosInputDataProviderProtocol"
+- "C15ChattoAdditions34PhotosInputPlaceholderDataProvider"
+- "C15ChattoAdditions23PhotosInputDataProvider"
+provides-member:
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", ""]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", ""]
+- ["C15ChattoAdditions23PhotosInputDataProvider", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "PHImageRequestOptions"
+- !private "NSSortDescriptor"
+- !private "BooleanLiteralType"
+- "PhotosInputPlaceholderDataProvider"
+- "PHCachingImageManager"
+- !private "<"
+- "Int32"
+- !private "&&"
+- "PHFetchResult"
+- "Int"
+- !private "PHFetchOptions"
+- !private "PHAsset"
+- "PhotosInputDataProvider"
+- "Void"
+- !private "assert"
+- !private ">="
+- !private "StringLiteralType"
+- "UIImage"
+- !private "Array"
+- "PhotosInputDataProviderProtocol"
+- "CGSize"
+depends-member:
+- !private ["Ps9AnyObject", "NSSortDescriptor"]
+- !private ["Ps9AnyObject", "PHAsset"]
+- ["Ps9AnyObject", "PHCachingImageManager"]
+- !private ["Ps9AnyObject", "PHFetchOptions"]
+- !private ["Ps9AnyObject", "PHImageRequestOptions"]
+- !private ["Ps9AnyObject", "UIImage"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "cancelImageRequest"]
+- ["Ps9AnyObject", "cancelPreviewImageRequest"]
+- ["Ps9AnyObject", "count"]
+- !private ["Ps9AnyObject", "deliveryMode"]
+- !private ["Ps9AnyObject", "fetchAssetsWithMediaType"]
+- !private ["Ps9AnyObject", "fetchResult"]
+- !private ["Ps9AnyObject", "imageManager"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "requestFullImageAtIndex"]
+- !private ["Ps9AnyObject", "requestImageDataForAsset"]
+- !private ["Ps9AnyObject", "requestImageForAsset"]
+- ["Ps9AnyObject", "requestPreviewImageAtIndex"]
+- !private ["Ps9AnyObject", "sortDescriptors"]
+- !private ["Ps9AnyObject", "subscript"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["Ps23ArrayLiteralConvertible", "Element"]
+- !private ["Ps11CVarArgType", "cancelImageRequest"]
+- !private ["Ps11CVarArgType", "count"]
+- !private ["Ps11CVarArgType", "deliveryMode"]
+- !private ["Ps11CVarArgType", "fetchAssetsWithMediaType"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "requestImageDataForAsset"]
+- !private ["Ps11CVarArgType", "requestImageForAsset"]
+- !private ["Ps11CVarArgType", "sortDescriptors"]
+- !private ["Ps11CVarArgType", "subscript"]
+- !private ["Ps14CollectionType", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "None"]
+- !private ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "cancelImageRequest"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "deliveryMode"]
+- !private ["Ps28CustomDebugStringConvertible", "fetchAssetsWithMediaType"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "requestImageDataForAsset"]
+- !private ["Ps28CustomDebugStringConvertible", "requestImageForAsset"]
+- !private ["Ps28CustomDebugStringConvertible", "sortDescriptors"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "cancelImageRequest"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "deliveryMode"]
+- !private ["Ps23CustomStringConvertible", "fetchAssetsWithMediaType"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "requestImageDataForAsset"]
+- !private ["Ps23CustomStringConvertible", "requestImageForAsset"]
+- !private ["Ps23CustomStringConvertible", "sortDescriptors"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps9Equatable", "AspectFill"]
+- !private ["Ps9Equatable", "HighQualityFormat"]
+- !private ["Ps9Equatable", "Image"]
+- !private ["Ps9Equatable", "cancelImageRequest"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "deliveryMode"]
+- !private ["Ps9Equatable", "fetchAssetsWithMediaType"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "requestImageDataForAsset"]
+- !private ["Ps9Equatable", "requestImageForAsset"]
+- !private ["Ps9Equatable", "sortDescriptors"]
+- !private ["Ps9Equatable", "subscript"]
+- !private ["Ps8Hashable", "AspectFill"]
+- !private ["Ps8Hashable", "HighQualityFormat"]
+- !private ["Ps8Hashable", "Image"]
+- !private ["Ps8Hashable", "cancelImageRequest"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "deliveryMode"]
+- !private ["Ps8Hashable", "fetchAssetsWithMediaType"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "requestImageDataForAsset"]
+- !private ["Ps8Hashable", "requestImageForAsset"]
+- !private ["Ps8Hashable", "sortDescriptors"]
+- !private ["Ps8Hashable", "subscript"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps21MutableCollectionType", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["Ps16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "count"]
+- !private ["PSo9NSCopying", "deliveryMode"]
+- !private ["PSo9NSCopying", "fetchAssetsWithMediaType"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "sortDescriptors"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["PSo17NSFastEnumeration", "count"]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["CSo8NSObject", "cancelImageRequest"]
+- !private ["CSo8NSObject", "count"]
+- !private ["CSo8NSObject", "deliveryMode"]
+- !private ["CSo8NSObject", "fetchAssetsWithMediaType"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "requestImageDataForAsset"]
+- !private ["CSo8NSObject", "requestImageForAsset"]
+- !private ["CSo8NSObject", "sortDescriptors"]
+- !private ["CSo8NSObject", "subscript"]
+- !private ["PSo16NSObjectProtocol", "cancelImageRequest"]
+- !private ["PSo16NSObjectProtocol", "count"]
+- !private ["PSo16NSObjectProtocol", "deliveryMode"]
+- !private ["PSo16NSObjectProtocol", "fetchAssetsWithMediaType"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "requestImageDataForAsset"]
+- !private ["PSo16NSObjectProtocol", "requestImageForAsset"]
+- !private ["PSo16NSObjectProtocol", "sortDescriptors"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo16NSSortDescriptor", "init"]
+- !private ["Ps21NilLiteralConvertible", "None"]
+- !private ["Ps21NilLiteralConvertible", "Some"]
+- !private ["Sq", "None"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["CSo7PHAsset", "fetchAssetsWithMediaType"]
+- !private ["OSC16PHAssetMediaType", "Image"]
+- !private ["CSo21PHCachingImageManager", "cancelImageRequest"]
+- ["CSo21PHCachingImageManager", "init"]
+- !private ["CSo21PHCachingImageManager", "requestImageDataForAsset"]
+- !private ["CSo21PHCachingImageManager", "requestImageForAsset"]
+- !private ["CSo14PHFetchOptions", "init"]
+- !private ["CSo14PHFetchOptions", "sortDescriptors"]
+- !private ["CSo13PHFetchResult", "count"]
+- !private ["CSo13PHFetchResult", "subscript"]
+- !private ["OSC18PHImageContentMode", "AspectFill"]
+- !private ["CSo14PHImageManager", "cancelImageRequest"]
+- ["CSo14PHImageManager", "init"]
+- !private ["CSo14PHImageManager", "requestImageDataForAsset"]
+- !private ["CSo14PHImageManager", "requestImageForAsset"]
+- !private ["CSo21PHImageRequestOptions", "deliveryMode"]
+- !private ["CSo21PHImageRequestOptions", "init"]
+- !private ["OSC33PHImageRequestOptionsDeliveryMode", "HighQualityFormat"]
+- !private ["CSo8PHObject", "fetchAssetsWithMediaType"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "CGSize"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "Int"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "Int32"]
+- !private ["C15ChattoAdditions23PhotosInputDataProvider", "NSSortDescriptor"]
+- !private ["C15ChattoAdditions23PhotosInputDataProvider", "PHAsset"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "PHCachingImageManager"]
+- !private ["C15ChattoAdditions23PhotosInputDataProvider", "PHFetchOptions"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "PHFetchResult"]
+- !private ["C15ChattoAdditions23PhotosInputDataProvider", "PHImageRequestOptions"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "UIImage"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "Void"]
+- !private ["C15ChattoAdditions23PhotosInputDataProvider", "assert"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "cancelPreviewImageRequest"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "count"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "deinit"]
+- !private ["C15ChattoAdditions23PhotosInputDataProvider", "fetchResult"]
+- !private ["C15ChattoAdditions23PhotosInputDataProvider", "imageManager"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "init"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "requestFullImageAtIndex"]
+- ["C15ChattoAdditions23PhotosInputDataProvider", "requestPreviewImageAtIndex"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "CGSize"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "Int"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "Int32"]
+- !private ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "NSSortDescriptor"]
+- !private ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "PHAsset"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "PHCachingImageManager"]
+- !private ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "PHFetchOptions"]
+- !private ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "PHImageRequestOptions"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "UIImage"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "Void"]
+- !private ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "assert"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "cancelPreviewImageRequest"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "count"]
+- !private ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "fetchResult"]
+- !private ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "imageManager"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "requestFullImageAtIndex"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", "requestPreviewImageAtIndex"]
+- ["P15ChattoAdditions31PhotosInputDataProviderProtocol", ""]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "CGSize"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "Int"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "Int32"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "UIImage"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "Void"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "cancelPreviewImageRequest"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "count"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "deinit"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "init"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "requestFullImageAtIndex"]
+- ["C15ChattoAdditions34PhotosInputPlaceholderDataProvider", "requestPreviewImageAtIndex"]
+- !private ["Ps30RangeReplaceableCollectionType", "Element"]
+- !private ["Ps16RawRepresentable", "AspectFill"]
+- !private ["Ps16RawRepresentable", "HighQualityFormat"]
+- !private ["Ps16RawRepresentable", "Image"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIImage", "init"]
+- !private ["Ps10_ArrayType", "Element"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps24_ImageLiteralConvertible", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps12_Reflectable", "Element"]
+- !private ["Ps12_Reflectable", "None"]
+- !private ["Ps12_Reflectable", "Some"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- "Ps11CVarArgType"
+- !private "Ps14CollectionType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo17NSFastEnumeration"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo16NSSortDescriptor"
+- !private "Ps21NilLiteralConvertible"
+- !private "Sq"
+- !private "CSo7PHAsset"
+- !private "OSC16PHAssetMediaType"
+- "CSo21PHCachingImageManager"
+- !private "CSo14PHFetchOptions"
+- !private "CSo13PHFetchResult"
+- !private "OSC18PHImageContentMode"
+- "CSo14PHImageManager"
+- !private "CSo21PHImageRequestOptions"
+- !private "OSC33PHImageRequestOptionsDeliveryMode"
+- !private "CSo8PHObject"
+- "C15ChattoAdditions23PhotosInputDataProvider"
+- "P15ChattoAdditions31PhotosInputDataProviderProtocol"
+- "C15ChattoAdditions34PhotosInputPlaceholderDataProvider"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps16RawRepresentable"
+- !private "Ps12SequenceType"
+- !private "Vs12StaticString"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "Ps10_ArrayType"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps24_ImageLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "33b39e02eff47d1250f7c104b9335118"

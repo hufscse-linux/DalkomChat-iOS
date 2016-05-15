@@ -1,0 +1,103 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChatInputBarAppearance"
+provides-nominal:
+- "V15ChattoAdditions22ChatInputBarAppearance"
+provides-member:
+- ["V15ChattoAdditions22ChatInputBarAppearance", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- "ChatInputBarAppearance"
+- "UIColor"
+- "UIFont"
+depends-member:
+- ["Ps9AnyObject", "blackColor"]
+- ["Ps9AnyObject", "grayColor"]
+- ["Ps9AnyObject", "systemFontOfSize"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["Ps11CVarArgType", "blackColor"]
+- ["Ps11CVarArgType", "grayColor"]
+- ["Ps11CVarArgType", "systemFontOfSize"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "UIColor"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "UIFont"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "init"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "sendButtonTitle"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "textColor"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "textFont"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "textPlaceholder"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "textPlaceholderColor"]
+- ["V15ChattoAdditions22ChatInputBarAppearance", "textPlaceholderFont"]
+- ["Ps28CustomDebugStringConvertible", "blackColor"]
+- ["Ps28CustomDebugStringConvertible", "grayColor"]
+- ["Ps28CustomDebugStringConvertible", "systemFontOfSize"]
+- ["Ps23CustomStringConvertible", "blackColor"]
+- ["Ps23CustomStringConvertible", "grayColor"]
+- ["Ps23CustomStringConvertible", "systemFontOfSize"]
+- ["Ps9Equatable", "blackColor"]
+- ["Ps9Equatable", "grayColor"]
+- ["Ps9Equatable", "systemFontOfSize"]
+- ["Ps8Hashable", "blackColor"]
+- ["Ps8Hashable", "grayColor"]
+- ["Ps8Hashable", "systemFontOfSize"]
+- ["PSo8NSCoding", "blackColor"]
+- ["PSo8NSCoding", "grayColor"]
+- ["PSo9NSCopying", "blackColor"]
+- ["PSo9NSCopying", "grayColor"]
+- ["PSo9NSCopying", "systemFontOfSize"]
+- ["CSo8NSObject", "blackColor"]
+- ["CSo8NSObject", "grayColor"]
+- ["CSo8NSObject", "systemFontOfSize"]
+- ["PSo16NSObjectProtocol", "blackColor"]
+- ["PSo16NSObjectProtocol", "grayColor"]
+- ["PSo16NSObjectProtocol", "systemFontOfSize"]
+- ["PSo14NSSecureCoding", "blackColor"]
+- ["PSo14NSSecureCoding", "grayColor"]
+- ["CSo7UIColor", "blackColor"]
+- ["CSo7UIColor", "grayColor"]
+- ["CSo6UIFont", "systemFontOfSize"]
+- ["Ps24_ColorLiteralConvertible", "blackColor"]
+- ["Ps24_ColorLiteralConvertible", "grayColor"]
+depends-nominal:
+- "Ps9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- "Ps11CVarArgType"
+- "V15ChattoAdditions22ChatInputBarAppearance"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo7UIColor"
+- "CSo6UIFont"
+- "Ps24_ColorLiteralConvertible"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "feb0dc0a7a52f901b02685a879f65ea8"

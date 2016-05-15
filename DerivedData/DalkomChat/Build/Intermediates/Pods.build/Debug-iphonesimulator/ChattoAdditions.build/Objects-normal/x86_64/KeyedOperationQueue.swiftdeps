@@ -1,0 +1,190 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "KeyedOperationQueue"
+provides-nominal:
+- "C15ChattoAdditions19KeyedOperationQueue"
+provides-member:
+- ["C15ChattoAdditions19KeyedOperationQueue", ""]
+provides-dynamic-lookup:
+- "addOperation"
+depends-top-level:
+- "NSOperation"
+- "NSMapTable"
+- !private "objc_sync_enter"
+- "String"
+- !private "objc_sync_exit"
+- "KeyedOperationQueue"
+- "NSOperationQueue"
+depends-member:
+- ["Ps9AnyObject", "NSMapTable"]
+- ["Ps9AnyObject", "addOperation"]
+- !private ["Ps9AnyObject", "cancel"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "keyedOperations"]
+- !private ["Ps9AnyObject", "objc_sync_enter"]
+- !private ["Ps9AnyObject", "objc_sync_exit"]
+- !private ["Ps9AnyObject", "objectForKey"]
+- !private ["Ps9AnyObject", "setObject"]
+- ["Ps9AnyObject", "strongToWeakObjectsMapTable"]
+- ["Ps9AnyObject", ""]
+- ["Ps11CVarArgType", "NSMapTable"]
+- ["Ps11CVarArgType", "addOperation"]
+- !private ["Ps11CVarArgType", "cancel"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "keyedOperations"]
+- !private ["Ps11CVarArgType", "objc_sync_enter"]
+- !private ["Ps11CVarArgType", "objc_sync_exit"]
+- !private ["Ps11CVarArgType", "objectForKey"]
+- !private ["Ps11CVarArgType", "setObject"]
+- ["Ps11CVarArgType", "strongToWeakObjectsMapTable"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "NSMapTable"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- ["Ps28CustomDebugStringConvertible", "addOperation"]
+- !private ["Ps28CustomDebugStringConvertible", "cancel"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "keyedOperations"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_sync_enter"]
+- !private ["Ps28CustomDebugStringConvertible", "objc_sync_exit"]
+- !private ["Ps28CustomDebugStringConvertible", "objectForKey"]
+- !private ["Ps28CustomDebugStringConvertible", "setObject"]
+- ["Ps28CustomDebugStringConvertible", "strongToWeakObjectsMapTable"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "NSMapTable"]
+- ["Ps23CustomStringConvertible", "addOperation"]
+- !private ["Ps23CustomStringConvertible", "cancel"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "keyedOperations"]
+- !private ["Ps23CustomStringConvertible", "objc_sync_enter"]
+- !private ["Ps23CustomStringConvertible", "objc_sync_exit"]
+- !private ["Ps23CustomStringConvertible", "objectForKey"]
+- !private ["Ps23CustomStringConvertible", "setObject"]
+- ["Ps23CustomStringConvertible", "strongToWeakObjectsMapTable"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Ps9Equatable", "NSMapTable"]
+- ["Ps9Equatable", "addOperation"]
+- !private ["Ps9Equatable", "cancel"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "keyedOperations"]
+- !private ["Ps9Equatable", "objc_sync_enter"]
+- !private ["Ps9Equatable", "objc_sync_exit"]
+- !private ["Ps9Equatable", "objectForKey"]
+- !private ["Ps9Equatable", "setObject"]
+- ["Ps9Equatable", "strongToWeakObjectsMapTable"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "NSMapTable"]
+- ["Ps8Hashable", "addOperation"]
+- !private ["Ps8Hashable", "cancel"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "keyedOperations"]
+- !private ["Ps8Hashable", "objc_sync_enter"]
+- !private ["Ps8Hashable", "objc_sync_exit"]
+- !private ["Ps8Hashable", "objectForKey"]
+- !private ["Ps8Hashable", "setObject"]
+- ["Ps8Hashable", "strongToWeakObjectsMapTable"]
+- ["Ps8Hashable", ""]
+- ["C15ChattoAdditions19KeyedOperationQueue", "NSMapTable"]
+- ["C15ChattoAdditions19KeyedOperationQueue", "NSOperation"]
+- ["C15ChattoAdditions19KeyedOperationQueue", "String"]
+- ["C15ChattoAdditions19KeyedOperationQueue", "addOperation"]
+- ["C15ChattoAdditions19KeyedOperationQueue", "deinit"]
+- ["C15ChattoAdditions19KeyedOperationQueue", "init"]
+- !private ["C15ChattoAdditions19KeyedOperationQueue", "keyedOperations"]
+- !private ["C15ChattoAdditions19KeyedOperationQueue", "objc_sync_enter"]
+- !private ["C15ChattoAdditions19KeyedOperationQueue", "objc_sync_exit"]
+- !private ["PSo8NSCoding", "objectForKey"]
+- !private ["PSo8NSCoding", "setObject"]
+- ["PSo8NSCoding", "strongToWeakObjectsMapTable"]
+- !private ["PSo9NSCopying", "objectForKey"]
+- !private ["PSo9NSCopying", "setObject"]
+- ["PSo9NSCopying", "strongToWeakObjectsMapTable"]
+- !private ["PSo17NSFastEnumeration", "objectForKey"]
+- !private ["PSo17NSFastEnumeration", "setObject"]
+- ["PSo17NSFastEnumeration", "strongToWeakObjectsMapTable"]
+- !private ["CSo10NSMapTable", "objectForKey"]
+- !private ["CSo10NSMapTable", "setObject"]
+- ["CSo10NSMapTable", "strongToWeakObjectsMapTable"]
+- ["CSo8NSObject", "NSMapTable"]
+- ["CSo8NSObject", "NSOperation"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "addOperation"]
+- !private ["CSo8NSObject", "cancel"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "keyedOperations"]
+- !private ["CSo8NSObject", "objc_sync_enter"]
+- !private ["CSo8NSObject", "objc_sync_exit"]
+- !private ["CSo8NSObject", "objectForKey"]
+- !private ["CSo8NSObject", "setObject"]
+- ["CSo8NSObject", "strongToWeakObjectsMapTable"]
+- ["PSo16NSObjectProtocol", "NSMapTable"]
+- ["PSo16NSObjectProtocol", "addOperation"]
+- !private ["PSo16NSObjectProtocol", "cancel"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "keyedOperations"]
+- !private ["PSo16NSObjectProtocol", "objc_sync_enter"]
+- !private ["PSo16NSObjectProtocol", "objc_sync_exit"]
+- !private ["PSo16NSObjectProtocol", "objectForKey"]
+- !private ["PSo16NSObjectProtocol", "setObject"]
+- ["PSo16NSObjectProtocol", "strongToWeakObjectsMapTable"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["CSo11NSOperation", "cancel"]
+- ["CSo16NSOperationQueue", "NSMapTable"]
+- ["CSo16NSOperationQueue", "NSOperation"]
+- ["CSo16NSOperationQueue", "String"]
+- ["CSo16NSOperationQueue", "addOperation"]
+- ["CSo16NSOperationQueue", "init"]
+- ["CSo16NSOperationQueue", "keyedOperations"]
+- !private ["CSo16NSOperationQueue", "objc_sync_enter"]
+- !private ["CSo16NSOperationQueue", "objc_sync_exit"]
+- ["CSo16NSOperationQueue", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["SS", "deinit"]
+- ["Ps12_Reflectable", "Some"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "C15ChattoAdditions19KeyedOperationQueue"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo17NSFastEnumeration"
+- "CSo10NSMapTable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo11NSOperation"
+- "CSo16NSOperationQueue"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "SS"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "85487eb9acbe545fda66d1506d55816a"

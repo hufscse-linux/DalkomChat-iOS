@@ -1,0 +1,6 @@
+framework module Pods_DalkomChatTests {
+  umbrella header "Pods-DalkomChatTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

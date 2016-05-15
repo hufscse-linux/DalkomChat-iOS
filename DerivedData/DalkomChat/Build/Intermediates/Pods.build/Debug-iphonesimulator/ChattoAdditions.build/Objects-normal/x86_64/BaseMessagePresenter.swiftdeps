@@ -1,0 +1,591 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewModelBuilderProtocol"
+- "BaseMessageInteractionHandlerProtocol"
+- "BaseMessagePresenter"
+provides-nominal:
+- "P15ChattoAdditions24ViewModelBuilderProtocol"
+- "P15ChattoAdditions37BaseMessageInteractionHandlerProtocol"
+- "C15ChattoAdditions20BaseMessagePresenter"
+provides-member:
+- ["P15ChattoAdditions24ViewModelBuilderProtocol", ""]
+- ["P15ChattoAdditions37BaseMessageInteractionHandlerProtocol", ""]
+- ["C15ChattoAdditions20BaseMessagePresenter", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "MaximumLayoutWidthSpecificable"
+- !private "UIMenuController"
+- "BaseChatItemPresenter"
+- !private "NSNotificationCenter"
+- "MessageModelProtocol"
+- !private "BooleanLiteralType"
+- "BackgroundSizingQueryable"
+- "BaseMessageInteractionHandlerProtocol"
+- "BaseMessagePresenter"
+- "Bool"
+- "NSNotification"
+- "UICollectionViewCell"
+- !private "CGSize"
+- "BaseMessageCollectionViewCellStyleProtocol"
+- "ChatItemDecorationAttributes"
+- "CGFloat"
+- !private "StringLiteralType"
+- "UIView"
+- "BaseMessageCollectionViewCell"
+- "MessageViewModelProtocol"
+- "Void"
+- "ChatItemDecorationAttributesProtocol"
+- !private "UIMenuControllerWillShowMenuNotification"
+- !private "assert"
+- "ViewModelBuilderProtocol"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "max"]
+- !private ["P6Chatto23AccessoryViewRevealable", "baseStyle"]
+- !private ["P6Chatto23AccessoryViewRevealable", "bubbleView"]
+- !private ["P6Chatto23AccessoryViewRevealable", "canCalculateSizeInBackground"]
+- !private ["P6Chatto23AccessoryViewRevealable", "messageViewModel"]
+- !private ["P6Chatto23AccessoryViewRevealable", "onBubbleLongPressed"]
+- !private ["P6Chatto23AccessoryViewRevealable", "onBubbleTapped"]
+- !private ["P6Chatto23AccessoryViewRevealable", "onFailedButtonTapped"]
+- !private ["P6Chatto23AccessoryViewRevealable", "performBatchUpdates"]
+- !private ["P6Chatto23AccessoryViewRevealable", "sizeThatFits"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGSize"]
+- !private ["Ps9AnyObject", "NSNotificationCenter"]
+- !private ["Ps9AnyObject", "UIMenuControllerWillShowMenuNotification"]
+- !private ["Ps9AnyObject", "addObserver"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "baseStyle"]
+- !private ["Ps9AnyObject", "bubbleView"]
+- ["Ps9AnyObject", "canCalculateHeightInBackground"]
+- !private ["Ps9AnyObject", "canCalculateSizeInBackground"]
+- ["Ps9AnyObject", "canShowMenu"]
+- !private ["Ps9AnyObject", "cell"]
+- ["Ps9AnyObject", "cellStyle"]
+- ["Ps9AnyObject", "configureCell"]
+- ["Ps9AnyObject", "createViewModel"]
+- ["Ps9AnyObject", "decorationAttributes"]
+- !private ["Ps9AnyObject", "defaultCenter"]
+- ["Ps9AnyObject", "heightForCell"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "interactionHandler"]
+- ["Ps9AnyObject", "messageModel"]
+- ["Ps9AnyObject", "messageViewModel"]
+- ["Ps9AnyObject", "messageViewModel.storage"]
+- !private ["Ps9AnyObject", "object"]
+- !private ["Ps9AnyObject", "onBubbleLongPressed"]
+- !private ["Ps9AnyObject", "onBubbleTapped"]
+- !private ["Ps9AnyObject", "onFailedButtonTapped"]
+- !private ["Ps9AnyObject", "performBatchUpdates"]
+- !private ["Ps9AnyObject", "removeObserver"]
+- !private ["Ps9AnyObject", "setMenuVisible"]
+- !private ["Ps9AnyObject", "setTargetRect"]
+- ["Ps9AnyObject", "shouldShowMenu"]
+- !private ["Ps9AnyObject", "sizeThatFits"]
+- ["Ps9AnyObject", "sizingCell"]
+- ["Ps9AnyObject", "viewModelBuilder"]
+- ["Ps9AnyObject", "willShowMenu"]
+- ["Ps9AnyObject", ""]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "baseStyle"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "bounds"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "bubbleView"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "canCalculateSizeInBackground"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "messageViewModel"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "onBubbleLongPressed"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "onBubbleTapped"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "onFailedButtonTapped"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "performBatchUpdates"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "sizeThatFits"]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "userInteractionEnabled"]
+- ["C6Chatto21BaseChatItemPresenter", "BaseMessageCollectionViewCell"]
+- ["C6Chatto21BaseChatItemPresenter", "BaseMessageCollectionViewCellStyleProtocol"]
+- ["C6Chatto21BaseChatItemPresenter", "Bool"]
+- ["C6Chatto21BaseChatItemPresenter", "BubbleViewT"]
+- ["C6Chatto21BaseChatItemPresenter", "CGFloat"]
+- !private ["C6Chatto21BaseChatItemPresenter", "CGSize"]
+- ["C6Chatto21BaseChatItemPresenter", "CellT"]
+- ["C6Chatto21BaseChatItemPresenter", "ChatItemDecorationAttributes"]
+- ["C6Chatto21BaseChatItemPresenter", "ChatItemDecorationAttributesProtocol"]
+- ["C6Chatto21BaseChatItemPresenter", "InteractionHandlerT"]
+- ["C6Chatto21BaseChatItemPresenter", "ModelT"]
+- ["C6Chatto21BaseChatItemPresenter", "NSNotification"]
+- !private ["C6Chatto21BaseChatItemPresenter", "NSNotificationCenter"]
+- ["C6Chatto21BaseChatItemPresenter", "UICollectionViewCell"]
+- !private ["C6Chatto21BaseChatItemPresenter", "UIMenuController"]
+- !private ["C6Chatto21BaseChatItemPresenter", "UIMenuControllerWillShowMenuNotification"]
+- ["C6Chatto21BaseChatItemPresenter", "ViewModelBuilderT"]
+- ["C6Chatto21BaseChatItemPresenter", "ViewModelT"]
+- ["C6Chatto21BaseChatItemPresenter", "Void"]
+- !private ["C6Chatto21BaseChatItemPresenter", "assert"]
+- ["C6Chatto21BaseChatItemPresenter", "canCalculateHeightInBackground"]
+- ["C6Chatto21BaseChatItemPresenter", "canShowMenu"]
+- !private ["C6Chatto21BaseChatItemPresenter", "cell"]
+- ["C6Chatto21BaseChatItemPresenter", "cellStyle"]
+- ["C6Chatto21BaseChatItemPresenter", "configureCell"]
+- ["C6Chatto21BaseChatItemPresenter", "createViewModel"]
+- ["C6Chatto21BaseChatItemPresenter", "decorationAttributes"]
+- ["C6Chatto21BaseChatItemPresenter", "heightForCell"]
+- ["C6Chatto21BaseChatItemPresenter", "init"]
+- ["C6Chatto21BaseChatItemPresenter", "interactionHandler"]
+- ["C6Chatto21BaseChatItemPresenter", "messageModel"]
+- ["C6Chatto21BaseChatItemPresenter", "messageViewModel"]
+- ["C6Chatto21BaseChatItemPresenter", "messageViewModel.storage"]
+- ["C6Chatto21BaseChatItemPresenter", "shouldShowMenu"]
+- ["C6Chatto21BaseChatItemPresenter", "sizingCell"]
+- ["C6Chatto21BaseChatItemPresenter", "viewModelBuilder"]
+- ["C6Chatto21BaseChatItemPresenter", "willShowMenu"]
+- ["C6Chatto21BaseChatItemPresenter", ""]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "baseStyle"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "bubbleView"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "canCalculateSizeInBackground"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "deinit"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "messageViewModel"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "onBubbleLongPressed"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "onBubbleTapped"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "onFailedButtonTapped"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "performBatchUpdates"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "sizeThatFits"]
+- ["P15ChattoAdditions37BaseMessageInteractionHandlerProtocol", "ViewModelT"]
+- ["P15ChattoAdditions37BaseMessageInteractionHandlerProtocol", "userDidLongPressOnBubble"]
+- ["P15ChattoAdditions37BaseMessageInteractionHandlerProtocol", "userDidTapOnBubble"]
+- ["P15ChattoAdditions37BaseMessageInteractionHandlerProtocol", "userDidTapOnFailIcon"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "BaseMessageCollectionViewCell"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "BaseMessageCollectionViewCellStyleProtocol"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "Bool"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "BubbleViewT"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "CGFloat"]
+- !private ["C15ChattoAdditions20BaseMessagePresenter", "CGSize"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "CellT"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "ChatItemDecorationAttributes"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "ChatItemDecorationAttributesProtocol"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "InteractionHandlerT"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "ModelT"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "NSNotification"]
+- !private ["C15ChattoAdditions20BaseMessagePresenter", "NSNotificationCenter"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "UICollectionViewCell"]
+- !private ["C15ChattoAdditions20BaseMessagePresenter", "UIMenuController"]
+- !private ["C15ChattoAdditions20BaseMessagePresenter", "UIMenuControllerWillShowMenuNotification"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "ViewModelBuilderT"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "ViewModelT"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "Void"]
+- !private ["C15ChattoAdditions20BaseMessagePresenter", "assert"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "canCalculateHeightInBackground"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "canShowMenu"]
+- !private ["C15ChattoAdditions20BaseMessagePresenter", "cell"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "cellStyle"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "configureCell"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "createViewModel"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "decorationAttributes"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "deinit"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "heightForCell"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "init"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "interactionHandler"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "messageModel"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "messageViewModel"]
+- !private ["C15ChattoAdditions20BaseMessagePresenter", "messageViewModel.storage"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "shouldShowMenu"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "sizingCell"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "viewModelBuilder"]
+- ["C15ChattoAdditions20BaseMessagePresenter", "willShowMenu"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "max"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "init"]
+- !private ["Ps11CVarArgType", "addObserver"]
+- !private ["Ps11CVarArgType", "baseStyle"]
+- !private ["Ps11CVarArgType", "bubbleView"]
+- !private ["Ps11CVarArgType", "canCalculateSizeInBackground"]
+- !private ["Ps11CVarArgType", "defaultCenter"]
+- !private ["Ps11CVarArgType", "max"]
+- !private ["Ps11CVarArgType", "messageViewModel"]
+- !private ["Ps11CVarArgType", "object"]
+- !private ["Ps11CVarArgType", "onBubbleLongPressed"]
+- !private ["Ps11CVarArgType", "onBubbleTapped"]
+- !private ["Ps11CVarArgType", "onFailedButtonTapped"]
+- !private ["Ps11CVarArgType", "performBatchUpdates"]
+- !private ["Ps11CVarArgType", "removeObserver"]
+- !private ["Ps11CVarArgType", "setMenuVisible"]
+- !private ["Ps11CVarArgType", "setTargetRect"]
+- !private ["Ps11CVarArgType", "sizeThatFits"]
+- !private ["V15ChattoAdditions28ChatItemDecorationAttributes", "showsTail"]
+- !private ["P6Chatto36ChatItemDecorationAttributesProtocol", "showsTail"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "CGFloat"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "CGSize"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "NSNotificationCenter"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "UIMenuControllerWillShowMenuNotification"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "assert"]
+- ["P6Chatto25ChatItemPresenterProtocol", "canCalculateHeightInBackground"]
+- ["P6Chatto25ChatItemPresenterProtocol", "canShowMenu"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "cell"]
+- ["P6Chatto25ChatItemPresenterProtocol", "cellStyle"]
+- ["P6Chatto25ChatItemPresenterProtocol", "configureCell"]
+- ["P6Chatto25ChatItemPresenterProtocol", "createViewModel"]
+- ["P6Chatto25ChatItemPresenterProtocol", "decorationAttributes"]
+- ["P6Chatto25ChatItemPresenterProtocol", "heightForCell"]
+- ["P6Chatto25ChatItemPresenterProtocol", "init"]
+- ["P6Chatto25ChatItemPresenterProtocol", "interactionHandler"]
+- ["P6Chatto25ChatItemPresenterProtocol", "messageModel"]
+- ["P6Chatto25ChatItemPresenterProtocol", "messageViewModel"]
+- ["P6Chatto25ChatItemPresenterProtocol", "messageViewModel.storage"]
+- ["P6Chatto25ChatItemPresenterProtocol", "shouldShowMenu"]
+- ["P6Chatto25ChatItemPresenterProtocol", "sizingCell"]
+- ["P6Chatto25ChatItemPresenterProtocol", "viewModelBuilder"]
+- ["P6Chatto25ChatItemPresenterProtocol", "willShowMenu"]
+- ["P6Chatto25ChatItemPresenterProtocol", ""]
+- !private ["Ps10Comparable", "max"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "addObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "baseStyle"]
+- !private ["Ps28CustomDebugStringConvertible", "bubbleView"]
+- !private ["Ps28CustomDebugStringConvertible", "canCalculateSizeInBackground"]
+- !private ["Ps28CustomDebugStringConvertible", "defaultCenter"]
+- !private ["Ps28CustomDebugStringConvertible", "messageViewModel"]
+- !private ["Ps28CustomDebugStringConvertible", "object"]
+- !private ["Ps28CustomDebugStringConvertible", "onBubbleLongPressed"]
+- !private ["Ps28CustomDebugStringConvertible", "onBubbleTapped"]
+- !private ["Ps28CustomDebugStringConvertible", "onFailedButtonTapped"]
+- !private ["Ps28CustomDebugStringConvertible", "performBatchUpdates"]
+- !private ["Ps28CustomDebugStringConvertible", "removeObserver"]
+- !private ["Ps28CustomDebugStringConvertible", "setMenuVisible"]
+- !private ["Ps28CustomDebugStringConvertible", "setTargetRect"]
+- !private ["Ps28CustomDebugStringConvertible", "sizeThatFits"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addObserver"]
+- !private ["Ps23CustomStringConvertible", "baseStyle"]
+- !private ["Ps23CustomStringConvertible", "bubbleView"]
+- !private ["Ps23CustomStringConvertible", "canCalculateSizeInBackground"]
+- !private ["Ps23CustomStringConvertible", "defaultCenter"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- !private ["Ps23CustomStringConvertible", "messageViewModel"]
+- !private ["Ps23CustomStringConvertible", "object"]
+- !private ["Ps23CustomStringConvertible", "onBubbleLongPressed"]
+- !private ["Ps23CustomStringConvertible", "onBubbleTapped"]
+- !private ["Ps23CustomStringConvertible", "onFailedButtonTapped"]
+- !private ["Ps23CustomStringConvertible", "performBatchUpdates"]
+- !private ["Ps23CustomStringConvertible", "removeObserver"]
+- !private ["Ps23CustomStringConvertible", "setMenuVisible"]
+- !private ["Ps23CustomStringConvertible", "setTargetRect"]
+- !private ["Ps23CustomStringConvertible", "sizeThatFits"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addObserver"]
+- !private ["Ps9Equatable", "baseStyle"]
+- !private ["Ps9Equatable", "bubbleView"]
+- !private ["Ps9Equatable", "canCalculateSizeInBackground"]
+- !private ["Ps9Equatable", "defaultCenter"]
+- !private ["Ps9Equatable", "height"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "max"]
+- !private ["Ps9Equatable", "messageViewModel"]
+- !private ["Ps9Equatable", "object"]
+- !private ["Ps9Equatable", "onBubbleLongPressed"]
+- !private ["Ps9Equatable", "onBubbleTapped"]
+- !private ["Ps9Equatable", "onFailedButtonTapped"]
+- !private ["Ps9Equatable", "performBatchUpdates"]
+- !private ["Ps9Equatable", "removeObserver"]
+- !private ["Ps9Equatable", "setMenuVisible"]
+- !private ["Ps9Equatable", "setTargetRect"]
+- !private ["Ps9Equatable", "sizeThatFits"]
+- !private ["Ps23FloatLiteralConvertible", "max"]
+- !private ["Ps17FloatingPointType", "max"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addObserver"]
+- !private ["Ps8Hashable", "baseStyle"]
+- !private ["Ps8Hashable", "bubbleView"]
+- !private ["Ps8Hashable", "canCalculateSizeInBackground"]
+- !private ["Ps8Hashable", "defaultCenter"]
+- !private ["Ps8Hashable", "max"]
+- !private ["Ps8Hashable", "messageViewModel"]
+- !private ["Ps8Hashable", "object"]
+- !private ["Ps8Hashable", "onBubbleLongPressed"]
+- !private ["Ps8Hashable", "onBubbleTapped"]
+- !private ["Ps8Hashable", "onFailedButtonTapped"]
+- !private ["Ps8Hashable", "performBatchUpdates"]
+- !private ["Ps8Hashable", "removeObserver"]
+- !private ["Ps8Hashable", "setMenuVisible"]
+- !private ["Ps8Hashable", "setTargetRect"]
+- !private ["Ps8Hashable", "sizeThatFits"]
+- !private ["Ps25IntegerLiteralConvertible", "max"]
+- !private ["P15ChattoAdditions30MaximumLayoutWidthSpecificable", "bounds"]
+- !private ["P15ChattoAdditions30MaximumLayoutWidthSpecificable", "userInteractionEnabled"]
+- !private ["P15ChattoAdditions24MessageViewModelProtocol", "showsTail"]
+- !private ["PSo8NSCoding", "baseStyle"]
+- !private ["PSo8NSCoding", "bubbleView"]
+- !private ["PSo8NSCoding", "canCalculateSizeInBackground"]
+- !private ["PSo8NSCoding", "messageViewModel"]
+- !private ["PSo8NSCoding", "object"]
+- !private ["PSo8NSCoding", "onBubbleLongPressed"]
+- !private ["PSo8NSCoding", "onBubbleTapped"]
+- !private ["PSo8NSCoding", "onFailedButtonTapped"]
+- !private ["PSo8NSCoding", "performBatchUpdates"]
+- !private ["PSo8NSCoding", "sizeThatFits"]
+- !private ["PSo9NSCopying", "object"]
+- !private ["CSo14NSNotification", "object"]
+- !private ["CSo20NSNotificationCenter", "addObserver"]
+- !private ["CSo20NSNotificationCenter", "defaultCenter"]
+- !private ["CSo20NSNotificationCenter", "removeObserver"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "baseStyle"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "bubbleView"]
+- !private ["CSo8NSObject", "canCalculateSizeInBackground"]
+- !private ["CSo8NSObject", "defaultCenter"]
+- !private ["CSo8NSObject", "messageViewModel"]
+- !private ["CSo8NSObject", "object"]
+- !private ["CSo8NSObject", "onBubbleLongPressed"]
+- !private ["CSo8NSObject", "onBubbleTapped"]
+- !private ["CSo8NSObject", "onFailedButtonTapped"]
+- !private ["CSo8NSObject", "performBatchUpdates"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["CSo8NSObject", "setMenuVisible"]
+- !private ["CSo8NSObject", "setTargetRect"]
+- !private ["CSo8NSObject", "sizeThatFits"]
+- !private ["CSo8NSObject", "userInteractionEnabled"]
+- !private ["PSo16NSObjectProtocol", "addObserver"]
+- !private ["PSo16NSObjectProtocol", "baseStyle"]
+- !private ["PSo16NSObjectProtocol", "bubbleView"]
+- !private ["PSo16NSObjectProtocol", "canCalculateSizeInBackground"]
+- !private ["PSo16NSObjectProtocol", "defaultCenter"]
+- !private ["PSo16NSObjectProtocol", "messageViewModel"]
+- !private ["PSo16NSObjectProtocol", "object"]
+- !private ["PSo16NSObjectProtocol", "onBubbleLongPressed"]
+- !private ["PSo16NSObjectProtocol", "onBubbleTapped"]
+- !private ["PSo16NSObjectProtocol", "onFailedButtonTapped"]
+- !private ["PSo16NSObjectProtocol", "performBatchUpdates"]
+- !private ["PSo16NSObjectProtocol", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "setMenuVisible"]
+- !private ["PSo16NSObjectProtocol", "setTargetRect"]
+- !private ["PSo16NSObjectProtocol", "sizeThatFits"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps16SignedNumberType", "max"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Strideable", "max"]
+- !private ["PSo29UIAccessibilityIdentification", "baseStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "bubbleView"]
+- !private ["PSo29UIAccessibilityIdentification", "canCalculateSizeInBackground"]
+- !private ["PSo29UIAccessibilityIdentification", "messageViewModel"]
+- !private ["PSo29UIAccessibilityIdentification", "onBubbleLongPressed"]
+- !private ["PSo29UIAccessibilityIdentification", "onBubbleTapped"]
+- !private ["PSo29UIAccessibilityIdentification", "onFailedButtonTapped"]
+- !private ["PSo29UIAccessibilityIdentification", "performBatchUpdates"]
+- !private ["PSo29UIAccessibilityIdentification", "sizeThatFits"]
+- !private ["PSo12UIAppearance", "baseStyle"]
+- !private ["PSo12UIAppearance", "bubbleView"]
+- !private ["PSo12UIAppearance", "canCalculateSizeInBackground"]
+- !private ["PSo12UIAppearance", "messageViewModel"]
+- !private ["PSo12UIAppearance", "onBubbleLongPressed"]
+- !private ["PSo12UIAppearance", "onBubbleTapped"]
+- !private ["PSo12UIAppearance", "onFailedButtonTapped"]
+- !private ["PSo12UIAppearance", "performBatchUpdates"]
+- !private ["PSo12UIAppearance", "sizeThatFits"]
+- !private ["PSo21UIAppearanceContainer", "baseStyle"]
+- !private ["PSo21UIAppearanceContainer", "bubbleView"]
+- !private ["PSo21UIAppearanceContainer", "canCalculateSizeInBackground"]
+- !private ["PSo21UIAppearanceContainer", "messageViewModel"]
+- !private ["PSo21UIAppearanceContainer", "onBubbleLongPressed"]
+- !private ["PSo21UIAppearanceContainer", "onBubbleTapped"]
+- !private ["PSo21UIAppearanceContainer", "onFailedButtonTapped"]
+- !private ["PSo21UIAppearanceContainer", "performBatchUpdates"]
+- !private ["PSo21UIAppearanceContainer", "sizeThatFits"]
+- !private ["CSo24UICollectionReusableView", "baseStyle"]
+- !private ["CSo24UICollectionReusableView", "bubbleView"]
+- !private ["CSo24UICollectionReusableView", "canCalculateSizeInBackground"]
+- !private ["CSo24UICollectionReusableView", "messageViewModel"]
+- !private ["CSo24UICollectionReusableView", "onBubbleLongPressed"]
+- !private ["CSo24UICollectionReusableView", "onBubbleTapped"]
+- !private ["CSo24UICollectionReusableView", "onFailedButtonTapped"]
+- !private ["CSo24UICollectionReusableView", "performBatchUpdates"]
+- !private ["CSo24UICollectionReusableView", "sizeThatFits"]
+- !private ["CSo20UICollectionViewCell", "baseStyle"]
+- !private ["CSo20UICollectionViewCell", "bubbleView"]
+- !private ["CSo20UICollectionViewCell", "canCalculateSizeInBackground"]
+- !private ["CSo20UICollectionViewCell", "deinit"]
+- !private ["CSo20UICollectionViewCell", "messageViewModel"]
+- !private ["CSo20UICollectionViewCell", "onBubbleLongPressed"]
+- !private ["CSo20UICollectionViewCell", "onBubbleTapped"]
+- !private ["CSo20UICollectionViewCell", "onFailedButtonTapped"]
+- !private ["CSo20UICollectionViewCell", "performBatchUpdates"]
+- !private ["CSo20UICollectionViewCell", "sizeThatFits"]
+- !private ["PSo17UICoordinateSpace", "baseStyle"]
+- !private ["PSo17UICoordinateSpace", "bubbleView"]
+- !private ["PSo17UICoordinateSpace", "canCalculateSizeInBackground"]
+- !private ["PSo17UICoordinateSpace", "messageViewModel"]
+- !private ["PSo17UICoordinateSpace", "onBubbleLongPressed"]
+- !private ["PSo17UICoordinateSpace", "onBubbleTapped"]
+- !private ["PSo17UICoordinateSpace", "onFailedButtonTapped"]
+- !private ["PSo17UICoordinateSpace", "performBatchUpdates"]
+- !private ["PSo17UICoordinateSpace", "sizeThatFits"]
+- !private ["PSo13UIDynamicItem", "baseStyle"]
+- !private ["PSo13UIDynamicItem", "bubbleView"]
+- !private ["PSo13UIDynamicItem", "canCalculateSizeInBackground"]
+- !private ["PSo13UIDynamicItem", "messageViewModel"]
+- !private ["PSo13UIDynamicItem", "onBubbleLongPressed"]
+- !private ["PSo13UIDynamicItem", "onBubbleTapped"]
+- !private ["PSo13UIDynamicItem", "onFailedButtonTapped"]
+- !private ["PSo13UIDynamicItem", "performBatchUpdates"]
+- !private ["PSo13UIDynamicItem", "sizeThatFits"]
+- !private ["PSo18UIFocusEnvironment", "baseStyle"]
+- !private ["PSo18UIFocusEnvironment", "bubbleView"]
+- !private ["PSo18UIFocusEnvironment", "canCalculateSizeInBackground"]
+- !private ["PSo18UIFocusEnvironment", "messageViewModel"]
+- !private ["PSo18UIFocusEnvironment", "onBubbleLongPressed"]
+- !private ["PSo18UIFocusEnvironment", "onBubbleTapped"]
+- !private ["PSo18UIFocusEnvironment", "onFailedButtonTapped"]
+- !private ["PSo18UIFocusEnvironment", "performBatchUpdates"]
+- !private ["PSo18UIFocusEnvironment", "sizeThatFits"]
+- !private ["PSo27UIGestureRecognizerDelegate", "baseStyle"]
+- !private ["PSo27UIGestureRecognizerDelegate", "bubbleView"]
+- !private ["PSo27UIGestureRecognizerDelegate", "canCalculateSizeInBackground"]
+- !private ["PSo27UIGestureRecognizerDelegate", "messageViewModel"]
+- !private ["PSo27UIGestureRecognizerDelegate", "onBubbleLongPressed"]
+- !private ["PSo27UIGestureRecognizerDelegate", "onBubbleTapped"]
+- !private ["PSo27UIGestureRecognizerDelegate", "onFailedButtonTapped"]
+- !private ["PSo27UIGestureRecognizerDelegate", "performBatchUpdates"]
+- !private ["PSo27UIGestureRecognizerDelegate", "sizeThatFits"]
+- !private ["CSo16UIMenuController", "setMenuVisible"]
+- !private ["CSo16UIMenuController", "setTargetRect"]
+- !private ["CSo11UIResponder", "baseStyle"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "bubbleView"]
+- !private ["CSo11UIResponder", "canCalculateSizeInBackground"]
+- !private ["CSo11UIResponder", "messageViewModel"]
+- !private ["CSo11UIResponder", "onBubbleLongPressed"]
+- !private ["CSo11UIResponder", "onBubbleTapped"]
+- !private ["CSo11UIResponder", "onFailedButtonTapped"]
+- !private ["CSo11UIResponder", "performBatchUpdates"]
+- !private ["CSo11UIResponder", "sizeThatFits"]
+- !private ["CSo11UIResponder", "userInteractionEnabled"]
+- !private ["PSo18UITraitEnvironment", "baseStyle"]
+- !private ["PSo18UITraitEnvironment", "bubbleView"]
+- !private ["PSo18UITraitEnvironment", "canCalculateSizeInBackground"]
+- !private ["PSo18UITraitEnvironment", "messageViewModel"]
+- !private ["PSo18UITraitEnvironment", "onBubbleLongPressed"]
+- !private ["PSo18UITraitEnvironment", "onBubbleTapped"]
+- !private ["PSo18UITraitEnvironment", "onFailedButtonTapped"]
+- !private ["PSo18UITraitEnvironment", "performBatchUpdates"]
+- !private ["PSo18UITraitEnvironment", "sizeThatFits"]
+- !private ["CSo6UIView", "baseStyle"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "bubbleView"]
+- !private ["CSo6UIView", "canCalculateSizeInBackground"]
+- !private ["CSo6UIView", "messageViewModel"]
+- !private ["CSo6UIView", "onBubbleLongPressed"]
+- !private ["CSo6UIView", "onBubbleTapped"]
+- !private ["CSo6UIView", "onFailedButtonTapped"]
+- !private ["CSo6UIView", "performBatchUpdates"]
+- !private ["CSo6UIView", "sizeThatFits"]
+- !private ["CSo6UIView", "userInteractionEnabled"]
+- ["P15ChattoAdditions24ViewModelBuilderProtocol", "MessageModelProtocol"]
+- ["P15ChattoAdditions24ViewModelBuilderProtocol", "MessageViewModelProtocol"]
+- ["P15ChattoAdditions24ViewModelBuilderProtocol", "ModelT"]
+- ["P15ChattoAdditions24ViewModelBuilderProtocol", "ViewModelT"]
+- ["P15ChattoAdditions24ViewModelBuilderProtocol", "createViewModel"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps19_CVarArgAlignedType", "max"]
+- !private ["Ps22_CVarArgPassedAsDouble", "max"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "max"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "baseStyle"]
+- !private ["Ps12_Reflectable", "bubbleView"]
+- !private ["Ps12_Reflectable", "canCalculateSizeInBackground"]
+- !private ["Ps12_Reflectable", "height"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "max"]
+- !private ["Ps12_Reflectable", "messageViewModel"]
+- !private ["Ps12_Reflectable", "onBubbleLongPressed"]
+- !private ["Ps12_Reflectable", "onBubbleTapped"]
+- !private ["Ps12_Reflectable", "onFailedButtonTapped"]
+- !private ["Ps12_Reflectable", "performBatchUpdates"]
+- !private ["Ps12_Reflectable", "sizeThatFits"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- !private "P6Chatto23AccessoryViewRevealable"
+- "Ps9AnyObject"
+- !private "P15ChattoAdditions25BackgroundSizingQueryable"
+- "C6Chatto21BaseChatItemPresenter"
+- !private "C15ChattoAdditions29BaseMessageCollectionViewCell"
+- "P15ChattoAdditions37BaseMessageInteractionHandlerProtocol"
+- "C15ChattoAdditions20BaseMessagePresenter"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGSize"
+- !private "Ps11CVarArgType"
+- !private "V15ChattoAdditions28ChatItemDecorationAttributes"
+- !private "P6Chatto36ChatItemDecorationAttributesProtocol"
+- "P6Chatto25ChatItemPresenterProtocol"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps23FloatLiteralConvertible"
+- !private "Ps17FloatingPointType"
+- !private "Ps8Hashable"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "P15ChattoAdditions30MaximumLayoutWidthSpecificable"
+- !private "P15ChattoAdditions24MessageViewModelProtocol"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo14NSNotification"
+- !private "CSo20NSNotificationCenter"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "V10ObjectiveC8Selector"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo24UICollectionReusableView"
+- !private "CSo20UICollectionViewCell"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo16UIMenuController"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "P15ChattoAdditions24ViewModelBuilderProtocol"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps19_CVarArgAlignedType"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "517846b90d966d21138c1d78368af7ce"

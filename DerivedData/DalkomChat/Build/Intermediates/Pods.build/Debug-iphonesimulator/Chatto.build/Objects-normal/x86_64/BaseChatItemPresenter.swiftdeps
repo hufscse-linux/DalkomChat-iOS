@@ -1,0 +1,225 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChatItemVisibility"
+- "BaseChatItemPresenter"
+provides-nominal:
+- "O6Chatto18ChatItemVisibility"
+- "C6Chatto21BaseChatItemPresenter"
+provides-member:
+- ["O6Chatto18ChatItemVisibility", ""]
+- ["C6Chatto21BaseChatItemPresenter", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGFloat"
+- "=="
+- !private "assert"
+- "Bool"
+- "ChatItemVisibility"
+- "Selector"
+- "BaseChatItemPresenter"
+- !private "StringLiteralType"
+- "UICollectionViewCell"
+- "ChatItemDecorationAttributesProtocol"
+- !private "==="
+- !private "BooleanLiteralType"
+- "NSIndexPath"
+- "UICollectionView"
+- "ChatItemPresenterProtocol"
+depends-member:
+- !private ["Ps9AnyObject", "UICollectionViewCell"]
+- !private ["Ps9AnyObject", "assert"]
+- ["Ps9AnyObject", "canCalculateHeightInBackground"]
+- ["Ps9AnyObject", "canPerformMenuControllerAction"]
+- !private ["Ps9AnyObject", "cell"]
+- ["Ps9AnyObject", "cellWasHidden"]
+- ["Ps9AnyObject", "cellWillBeShown"]
+- ["Ps9AnyObject", "configureCell"]
+- ["Ps9AnyObject", "dequeueCell"]
+- ["Ps9AnyObject", "heightForCell"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "itemVisibility"]
+- ["Ps9AnyObject", "performMenuControllerAction"]
+- ["Ps9AnyObject", "registerCells"]
+- ["Ps9AnyObject", "shouldShowMenu"]
+- ["Ps9AnyObject", ""]
+- ["C6Chatto21BaseChatItemPresenter", "Bool"]
+- ["C6Chatto21BaseChatItemPresenter", "CGFloat"]
+- ["C6Chatto21BaseChatItemPresenter", "CellT"]
+- ["C6Chatto21BaseChatItemPresenter", "ChatItemDecorationAttributesProtocol"]
+- ["C6Chatto21BaseChatItemPresenter", "ChatItemVisibility"]
+- ["C6Chatto21BaseChatItemPresenter", "NSIndexPath"]
+- ["C6Chatto21BaseChatItemPresenter", "Selector"]
+- ["C6Chatto21BaseChatItemPresenter", "UICollectionView"]
+- ["C6Chatto21BaseChatItemPresenter", "UICollectionViewCell"]
+- !private ["C6Chatto21BaseChatItemPresenter", "assert"]
+- ["C6Chatto21BaseChatItemPresenter", "canCalculateHeightInBackground"]
+- ["C6Chatto21BaseChatItemPresenter", "canPerformMenuControllerAction"]
+- ["C6Chatto21BaseChatItemPresenter", "cell"]
+- ["C6Chatto21BaseChatItemPresenter", "cellWasHidden"]
+- ["C6Chatto21BaseChatItemPresenter", "cellWillBeShown"]
+- ["C6Chatto21BaseChatItemPresenter", "configureCell"]
+- ["C6Chatto21BaseChatItemPresenter", "deinit"]
+- ["C6Chatto21BaseChatItemPresenter", "dequeueCell"]
+- ["C6Chatto21BaseChatItemPresenter", "heightForCell"]
+- ["C6Chatto21BaseChatItemPresenter", "init"]
+- ["C6Chatto21BaseChatItemPresenter", "itemVisibility"]
+- ["C6Chatto21BaseChatItemPresenter", "performMenuControllerAction"]
+- ["C6Chatto21BaseChatItemPresenter", "registerCells"]
+- ["C6Chatto21BaseChatItemPresenter", "shouldShowMenu"]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- !private ["Ps11CVarArgType", "init"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "UICollectionViewCell"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "assert"]
+- ["P6Chatto25ChatItemPresenterProtocol", "canCalculateHeightInBackground"]
+- ["P6Chatto25ChatItemPresenterProtocol", "canPerformMenuControllerAction"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "cell"]
+- ["P6Chatto25ChatItemPresenterProtocol", "cellWasHidden"]
+- ["P6Chatto25ChatItemPresenterProtocol", "cellWillBeShown"]
+- ["P6Chatto25ChatItemPresenterProtocol", "configureCell"]
+- ["P6Chatto25ChatItemPresenterProtocol", "dequeueCell"]
+- ["P6Chatto25ChatItemPresenterProtocol", "heightForCell"]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "itemVisibility"]
+- ["P6Chatto25ChatItemPresenterProtocol", "performMenuControllerAction"]
+- ["P6Chatto25ChatItemPresenterProtocol", "registerCells"]
+- ["P6Chatto25ChatItemPresenterProtocol", "shouldShowMenu"]
+- ["P6Chatto25ChatItemPresenterProtocol", ""]
+- ["O6Chatto18ChatItemVisibility", "Appearing"]
+- ["O6Chatto18ChatItemVisibility", "Hidden"]
+- ["O6Chatto18ChatItemVisibility", "Visible"]
+- ["O6Chatto18ChatItemVisibility", "deinit"]
+- ["O6Chatto18ChatItemVisibility", "hashValue"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps9Equatable", "Appearing"]
+- ["Ps9Equatable", "Hidden"]
+- !private ["Ps9Equatable", "Visible"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- !private ["Ps8Hashable", "Appearing"]
+- ["Ps8Hashable", "Hidden"]
+- !private ["Ps8Hashable", "Visible"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["CSo24UICollectionReusableView", "init"]
+- !private ["CSo20UICollectionViewCell", "deinit"]
+- !private ["CSo20UICollectionViewCell", "init"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["CSo6UIView", "init"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C6Chatto21BaseChatItemPresenter"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "Ps11CVarArgType"
+- "P6Chatto25ChatItemPresenterProtocol"
+- "O6Chatto18ChatItemVisibility"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "PSo8NSCoding"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs12StaticString"
+- !private "Ps10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo24UICollectionReusableView"
+- !private "CSo20UICollectionViewCell"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "48b922bd0fa5b242fcc4c36e1ae86064"

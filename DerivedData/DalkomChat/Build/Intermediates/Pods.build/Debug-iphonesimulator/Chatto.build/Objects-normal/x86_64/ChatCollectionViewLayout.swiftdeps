@@ -1,0 +1,665 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ChatCollectionViewLayoutDelegate"
+- "ChatCollectionViewLayoutModel"
+- "ChatCollectionViewLayout"
+provides-nominal:
+- "P6Chatto32ChatCollectionViewLayoutDelegate"
+- "V6Chatto29ChatCollectionViewLayoutModel"
+- "C6Chatto24ChatCollectionViewLayout"
+provides-member:
+- ["P6Chatto32ChatCollectionViewLayoutDelegate", ""]
+- ["V6Chatto29ChatCollectionViewLayoutModel", ""]
+- ["C6Chatto24ChatCollectionViewLayout", ""]
+provides-dynamic-lookup:
+- "shouldInvalidateLayoutForBoundsChange"
+- "invalidateLayout"
+- "prepareLayout"
+- "layoutAttributesForElementsInRect"
+- "collectionViewContentSize"
+- "layoutAttributesForItemAtIndexPath"
+depends-top-level:
+- "UICollectionViewLayout"
+- "ChatCollectionViewLayoutModel"
+- "CGRect"
+- !private "CGPoint"
+- "CGFloat"
+- "Bool"
+- "CGSize"
+- !private "StringLiteralType"
+- !private "Void"
+- !private "+="
+- !private "assert"
+- !private "!="
+- !private "<"
+- "ChatCollectionViewLayoutDelegate"
+- "ChatCollectionViewLayout"
+- !private "DISPATCH_QUEUE_PRIORITY_DEFAULT"
+- !private "dispatch_get_global_queue"
+- "NSIndexPath"
+- !private "dispatch_async"
+- "BooleanLiteralType"
+- !private "&&"
+- "UICollectionViewLayoutAttributes"
+depends-member:
+- !private ["Ps9AnyObject", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["Ps9AnyObject", "assert"]
+- ["Ps9AnyObject", "collectionViewContentSize"]
+- ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dispatch_async"]
+- !private ["Ps9AnyObject", "dispatch_get_global_queue"]
+- !private ["Ps9AnyObject", "frame"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "invalidateLayout"]
+- !private ["Ps9AnyObject", "item"]
+- ["Ps9AnyObject", "layoutAttributesForElementsInRect"]
+- ["Ps9AnyObject", "layoutAttributesForItemAtIndexPath"]
+- ["Ps9AnyObject", "layoutModel"]
+- ["Ps9AnyObject", "layoutNeedsUpdate"]
+- ["Ps9AnyObject", "prepareLayout"]
+- !private ["Ps9AnyObject", "section"]
+- ["Ps9AnyObject", "shouldInvalidateLayoutForBoundsChange"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "enumerate"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Ps23ArrayLiteralConvertible", "Generator"]
+- !private ["Ps23ArrayLiteralConvertible", "Index"]
+- !private ["Ps23ArrayLiteralConvertible", "SubSequence"]
+- !private ["Ps23ArrayLiteralConvertible", "_Element"]
+- !private ["Ps23ArrayLiteralConvertible", "append"]
+- !private ["Ps23ArrayLiteralConvertible", "count"]
+- !private ["Ps23ArrayLiteralConvertible", "enumerate"]
+- !private ["Ps23ArrayLiteralConvertible", "filter"]
+- !private ["Ps23ArrayLiteralConvertible", "init"]
+- !private ["Ps23ArrayLiteralConvertible", "subscript"]
+- !private ["Vs10ArraySlice", "Generator"]
+- !private ["Vs10ArraySlice", "Index"]
+- !private ["Ps22BidirectionalIndexType", "Distance"]
+- !private ["Ps22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["Ps21BitwiseOperationsType", "Distance"]
+- !private ["Ps21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC6CGRect", "init"]
+- !private ["VSC6CGRect", "intersects"]
+- !private ["VSC6CGRect", "width"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "init"]
+- !private ["Ps11CVarArgType", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["Ps11CVarArgType", "Distance"]
+- !private ["Ps11CVarArgType", "IntegerLiteralType"]
+- !private ["Ps11CVarArgType", "assert"]
+- ["Ps11CVarArgType", "collectionViewContentSize"]
+- ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "dispatch_async"]
+- !private ["Ps11CVarArgType", "dispatch_get_global_queue"]
+- !private ["Ps11CVarArgType", "frame"]
+- ["Ps11CVarArgType", "init"]
+- ["Ps11CVarArgType", "invalidateLayout"]
+- !private ["Ps11CVarArgType", "item"]
+- ["Ps11CVarArgType", "layoutAttributesForElementsInRect"]
+- ["Ps11CVarArgType", "layoutAttributesForItemAtIndexPath"]
+- ["Ps11CVarArgType", "layoutModel"]
+- ["Ps11CVarArgType", "layoutNeedsUpdate"]
+- ["Ps11CVarArgType", "prepareLayout"]
+- !private ["Ps11CVarArgType", "section"]
+- ["Ps11CVarArgType", "shouldInvalidateLayoutForBoundsChange"]
+- ["Ps11CVarArgType", ""]
+- !private ["Vs9Character", "deinit"]
+- ["C6Chatto24ChatCollectionViewLayout", "Bool"]
+- ["C6Chatto24ChatCollectionViewLayout", "CGRect"]
+- ["C6Chatto24ChatCollectionViewLayout", "CGSize"]
+- ["C6Chatto24ChatCollectionViewLayout", "ChatCollectionViewLayoutDelegate"]
+- ["C6Chatto24ChatCollectionViewLayout", "ChatCollectionViewLayoutModel"]
+- !private ["C6Chatto24ChatCollectionViewLayout", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- ["C6Chatto24ChatCollectionViewLayout", "NSIndexPath"]
+- ["C6Chatto24ChatCollectionViewLayout", "UICollectionViewLayoutAttributes"]
+- !private ["C6Chatto24ChatCollectionViewLayout", "Void"]
+- !private ["C6Chatto24ChatCollectionViewLayout", "assert"]
+- ["C6Chatto24ChatCollectionViewLayout", "collectionViewContentSize"]
+- ["C6Chatto24ChatCollectionViewLayout", "deinit"]
+- ["C6Chatto24ChatCollectionViewLayout", "delegate"]
+- !private ["C6Chatto24ChatCollectionViewLayout", "dispatch_async"]
+- !private ["C6Chatto24ChatCollectionViewLayout", "dispatch_get_global_queue"]
+- ["C6Chatto24ChatCollectionViewLayout", "init"]
+- ["C6Chatto24ChatCollectionViewLayout", "invalidateLayout"]
+- ["C6Chatto24ChatCollectionViewLayout", "layoutAttributesForElementsInRect"]
+- ["C6Chatto24ChatCollectionViewLayout", "layoutAttributesForItemAtIndexPath"]
+- ["C6Chatto24ChatCollectionViewLayout", "layoutModel"]
+- !private ["C6Chatto24ChatCollectionViewLayout", "layoutNeedsUpdate"]
+- ["C6Chatto24ChatCollectionViewLayout", "prepareLayout"]
+- ["C6Chatto24ChatCollectionViewLayout", "shouldInvalidateLayoutForBoundsChange"]
+- ["P6Chatto32ChatCollectionViewLayoutDelegate", "ChatCollectionViewLayoutModel"]
+- ["P6Chatto32ChatCollectionViewLayoutDelegate", "chatCollectionViewLayoutModel"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "CGFloat"]
+- !private ["V6Chatto29ChatCollectionViewLayoutModel", "CGPoint"]
+- !private ["V6Chatto29ChatCollectionViewLayoutModel", "CGRect"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "CGSize"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "ChatCollectionViewLayoutModel"]
+- !private ["V6Chatto29ChatCollectionViewLayoutModel", "NSIndexPath"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "UICollectionViewLayoutAttributes"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "calculatedForWidth"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "contentSize"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "createModel"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "init"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "layoutAttributes"]
+- ["V6Chatto29ChatCollectionViewLayoutModel", "layoutAttributesBySectionAndItem"]
+- !private ["Ps14CollectionType", "Generator"]
+- !private ["Ps14CollectionType", "Index"]
+- !private ["Ps14CollectionType", "SubSequence"]
+- !private ["Ps14CollectionType", "_Element"]
+- !private ["Ps14CollectionType", "append"]
+- !private ["Ps14CollectionType", "count"]
+- !private ["Ps14CollectionType", "enumerate"]
+- !private ["Ps14CollectionType", "filter"]
+- !private ["Ps14CollectionType", "init"]
+- !private ["Ps14CollectionType", "subscript"]
+- !private ["Ps10Comparable", "Distance"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["Ps28CustomDebugStringConvertible", "Generator"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "assert"]
+- ["Ps28CustomDebugStringConvertible", "collectionViewContentSize"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_async"]
+- !private ["Ps28CustomDebugStringConvertible", "dispatch_get_global_queue"]
+- !private ["Ps28CustomDebugStringConvertible", "enumerate"]
+- !private ["Ps28CustomDebugStringConvertible", "filter"]
+- !private ["Ps28CustomDebugStringConvertible", "frame"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "invalidateLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "item"]
+- ["Ps28CustomDebugStringConvertible", "layoutAttributesForElementsInRect"]
+- ["Ps28CustomDebugStringConvertible", "layoutAttributesForItemAtIndexPath"]
+- ["Ps28CustomDebugStringConvertible", "layoutModel"]
+- ["Ps28CustomDebugStringConvertible", "layoutNeedsUpdate"]
+- ["Ps28CustomDebugStringConvertible", "prepareLayout"]
+- !private ["Ps28CustomDebugStringConvertible", "section"]
+- ["Ps28CustomDebugStringConvertible", "shouldInvalidateLayoutForBoundsChange"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["Ps23CustomStringConvertible", "Distance"]
+- !private ["Ps23CustomStringConvertible", "Generator"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "assert"]
+- ["Ps23CustomStringConvertible", "collectionViewContentSize"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dispatch_async"]
+- !private ["Ps23CustomStringConvertible", "dispatch_get_global_queue"]
+- !private ["Ps23CustomStringConvertible", "enumerate"]
+- !private ["Ps23CustomStringConvertible", "filter"]
+- !private ["Ps23CustomStringConvertible", "frame"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "invalidateLayout"]
+- !private ["Ps23CustomStringConvertible", "item"]
+- ["Ps23CustomStringConvertible", "layoutAttributesForElementsInRect"]
+- ["Ps23CustomStringConvertible", "layoutAttributesForItemAtIndexPath"]
+- ["Ps23CustomStringConvertible", "layoutModel"]
+- ["Ps23CustomStringConvertible", "layoutNeedsUpdate"]
+- ["Ps23CustomStringConvertible", "prepareLayout"]
+- !private ["Ps23CustomStringConvertible", "section"]
+- ["Ps23CustomStringConvertible", "shouldInvalidateLayoutForBoundsChange"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "deinit"]
+- !private ["Vs18EnumerateGenerator", "Element"]
+- !private ["Vs17EnumerateSequence", "Generator"]
+- !private ["Ps9Equatable", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["Ps9Equatable", "Distance"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "assert"]
+- ["Ps9Equatable", "collectionViewContentSize"]
+- ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dispatch_async"]
+- !private ["Ps9Equatable", "dispatch_get_global_queue"]
+- !private ["Ps9Equatable", "frame"]
+- !private ["Ps9Equatable", "height"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "intersects"]
+- ["Ps9Equatable", "invalidateLayout"]
+- !private ["Ps9Equatable", "item"]
+- ["Ps9Equatable", "layoutAttributesForElementsInRect"]
+- ["Ps9Equatable", "layoutAttributesForItemAtIndexPath"]
+- ["Ps9Equatable", "layoutModel"]
+- ["Ps9Equatable", "layoutNeedsUpdate"]
+- ["Ps9Equatable", "prepareLayout"]
+- !private ["Ps9Equatable", "section"]
+- ["Ps9Equatable", "shouldInvalidateLayoutForBoundsChange"]
+- !private ["Ps9Equatable", "width"]
+- ["Ps9Equatable", ""]
+- !private ["Ps41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps16ForwardIndexType", "Distance"]
+- !private ["Ps16ForwardIndexType", "IntegerLiteralType"]
+- !private ["Ps13GeneratorType", "Element"]
+- !private ["Ps8Hashable", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["Ps8Hashable", "Distance"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "assert"]
+- ["Ps8Hashable", "collectionViewContentSize"]
+- ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dispatch_async"]
+- !private ["Ps8Hashable", "dispatch_get_global_queue"]
+- !private ["Ps8Hashable", "frame"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "invalidateLayout"]
+- !private ["Ps8Hashable", "item"]
+- ["Ps8Hashable", "layoutAttributesForElementsInRect"]
+- ["Ps8Hashable", "layoutAttributesForItemAtIndexPath"]
+- ["Ps8Hashable", "layoutModel"]
+- ["Ps8Hashable", "layoutNeedsUpdate"]
+- ["Ps8Hashable", "prepareLayout"]
+- !private ["Ps8Hashable", "section"]
+- ["Ps8Hashable", "shouldInvalidateLayoutForBoundsChange"]
+- ["Ps8Hashable", ""]
+- !private ["SQ", "deinit"]
+- !private ["Ps9Indexable", "Generator"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "count"]
+- !private ["Ps9Indexable", "enumerate"]
+- !private ["Ps9Indexable", "filter"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Vs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps21IntegerArithmeticType", "Distance"]
+- !private ["Ps21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps25IntegerLiteralConvertible", "Distance"]
+- !private ["Ps25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps11IntegerType", "Distance"]
+- !private ["Ps11IntegerType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "Distance"]
+- !private ["Ps14MirrorPathType", "IntegerLiteralType"]
+- !private ["Ps14MirrorPathType", "init"]
+- !private ["Ps21MutableCollectionType", "Generator"]
+- !private ["Ps21MutableCollectionType", "Index"]
+- !private ["Ps21MutableCollectionType", "SubSequence"]
+- !private ["Ps21MutableCollectionType", "_Element"]
+- !private ["Ps21MutableCollectionType", "append"]
+- !private ["Ps21MutableCollectionType", "count"]
+- !private ["Ps21MutableCollectionType", "enumerate"]
+- !private ["Ps21MutableCollectionType", "filter"]
+- !private ["Ps21MutableCollectionType", "init"]
+- !private ["Ps21MutableCollectionType", "subscript"]
+- !private ["Ps16MutableIndexable", "Generator"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "count"]
+- !private ["Ps16MutableIndexable", "enumerate"]
+- !private ["Ps16MutableIndexable", "filter"]
+- !private ["Ps16MutableIndexable", "init"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["Ps16MutableSliceable", "Generator"]
+- !private ["Ps16MutableSliceable", "Index"]
+- !private ["Ps16MutableSliceable", "SubSequence"]
+- !private ["Ps16MutableSliceable", "_Element"]
+- !private ["Ps16MutableSliceable", "append"]
+- !private ["Ps16MutableSliceable", "count"]
+- !private ["Ps16MutableSliceable", "enumerate"]
+- !private ["Ps16MutableSliceable", "filter"]
+- !private ["Ps16MutableSliceable", "init"]
+- !private ["Ps16MutableSliceable", "subscript"]
+- !private ["PSo8NSCoding", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSo8NSCoding", "assert"]
+- ["PSo8NSCoding", "collectionViewContentSize"]
+- ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "dispatch_async"]
+- !private ["PSo8NSCoding", "dispatch_get_global_queue"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "invalidateLayout"]
+- !private ["PSo8NSCoding", "item"]
+- ["PSo8NSCoding", "layoutAttributesForElementsInRect"]
+- ["PSo8NSCoding", "layoutAttributesForItemAtIndexPath"]
+- ["PSo8NSCoding", "layoutModel"]
+- ["PSo8NSCoding", "layoutNeedsUpdate"]
+- ["PSo8NSCoding", "prepareLayout"]
+- !private ["PSo8NSCoding", "section"]
+- ["PSo8NSCoding", "shouldInvalidateLayoutForBoundsChange"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "frame"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "item"]
+- !private ["PSo9NSCopying", "section"]
+- !private ["CSo11NSIndexPath", "init"]
+- !private ["CSo11NSIndexPath", "item"]
+- !private ["CSo11NSIndexPath", "section"]
+- !private ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "ChatCollectionViewLayoutDelegate"]
+- ["CSo8NSObject", "ChatCollectionViewLayoutModel"]
+- !private ["CSo8NSObject", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- ["CSo8NSObject", "NSIndexPath"]
+- ["CSo8NSObject", "UICollectionViewLayoutAttributes"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "assert"]
+- ["CSo8NSObject", "collectionViewContentSize"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dispatch_async"]
+- !private ["CSo8NSObject", "dispatch_get_global_queue"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "invalidateLayout"]
+- !private ["CSo8NSObject", "item"]
+- ["CSo8NSObject", "layoutAttributesForElementsInRect"]
+- ["CSo8NSObject", "layoutAttributesForItemAtIndexPath"]
+- ["CSo8NSObject", "layoutModel"]
+- ["CSo8NSObject", "layoutNeedsUpdate"]
+- ["CSo8NSObject", "prepareLayout"]
+- !private ["CSo8NSObject", "section"]
+- ["CSo8NSObject", "shouldInvalidateLayoutForBoundsChange"]
+- !private ["PSo16NSObjectProtocol", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- !private ["PSo16NSObjectProtocol", "assert"]
+- ["PSo16NSObjectProtocol", "collectionViewContentSize"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dispatch_async"]
+- !private ["PSo16NSObjectProtocol", "dispatch_get_global_queue"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "invalidateLayout"]
+- !private ["PSo16NSObjectProtocol", "item"]
+- ["PSo16NSObjectProtocol", "layoutAttributesForElementsInRect"]
+- ["PSo16NSObjectProtocol", "layoutAttributesForItemAtIndexPath"]
+- ["PSo16NSObjectProtocol", "layoutModel"]
+- ["PSo16NSObjectProtocol", "layoutNeedsUpdate"]
+- ["PSo16NSObjectProtocol", "prepareLayout"]
+- !private ["PSo16NSObjectProtocol", "section"]
+- ["PSo16NSObjectProtocol", "shouldInvalidateLayoutForBoundsChange"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "item"]
+- !private ["PSo14NSSecureCoding", "section"]
+- !private ["CSo8NSString", "init"]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["Ps16OutputStreamType", "init"]
+- !private ["Ps21RandomAccessIndexType", "Distance"]
+- !private ["Ps21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["Ps30RangeReplaceableCollectionType", "Generator"]
+- !private ["Ps30RangeReplaceableCollectionType", "Index"]
+- !private ["Ps30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["Ps30RangeReplaceableCollectionType", "_Element"]
+- !private ["Ps30RangeReplaceableCollectionType", "append"]
+- !private ["Ps30RangeReplaceableCollectionType", "count"]
+- !private ["Ps30RangeReplaceableCollectionType", "enumerate"]
+- !private ["Ps30RangeReplaceableCollectionType", "filter"]
+- !private ["Ps30RangeReplaceableCollectionType", "init"]
+- !private ["Ps30RangeReplaceableCollectionType", "subscript"]
+- !private ["Ps12SequenceType", "Element"]
+- !private ["Ps12SequenceType", "Generator"]
+- !private ["Ps12SequenceType", "Index"]
+- !private ["Ps12SequenceType", "SubSequence"]
+- !private ["Ps12SequenceType", "_Element"]
+- !private ["Ps12SequenceType", "append"]
+- !private ["Ps12SequenceType", "count"]
+- !private ["Ps12SequenceType", "enumerate"]
+- !private ["Ps12SequenceType", "filter"]
+- !private ["Ps12SequenceType", "init"]
+- !private ["Ps12SequenceType", "subscript"]
+- !private ["Ps17SignedIntegerType", "Distance"]
+- !private ["Ps17SignedIntegerType", "IntegerLiteralType"]
+- !private ["Ps16SignedNumberType", "Distance"]
+- !private ["Ps16SignedNumberType", "IntegerLiteralType"]
+- !private ["Vs5Slice", "Generator"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["Ps10Streamable", "init"]
+- !private ["Ps10Strideable", "Distance"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["Ps30StringInterpolationConvertible", "init"]
+- !private ["Ps24StringLiteralConvertible", "init"]
+- ["CSo22UICollectionViewLayout", "Bool"]
+- ["CSo22UICollectionViewLayout", "CGRect"]
+- ["CSo22UICollectionViewLayout", "CGSize"]
+- ["CSo22UICollectionViewLayout", "ChatCollectionViewLayoutDelegate"]
+- ["CSo22UICollectionViewLayout", "ChatCollectionViewLayoutModel"]
+- !private ["CSo22UICollectionViewLayout", "DISPATCH_QUEUE_PRIORITY_DEFAULT"]
+- ["CSo22UICollectionViewLayout", "NSIndexPath"]
+- ["CSo22UICollectionViewLayout", "UICollectionViewLayoutAttributes"]
+- !private ["CSo22UICollectionViewLayout", "Void"]
+- !private ["CSo22UICollectionViewLayout", "assert"]
+- ["CSo22UICollectionViewLayout", "collectionViewContentSize"]
+- ["CSo22UICollectionViewLayout", "delegate"]
+- !private ["CSo22UICollectionViewLayout", "dispatch_async"]
+- !private ["CSo22UICollectionViewLayout", "dispatch_get_global_queue"]
+- ["CSo22UICollectionViewLayout", "init"]
+- ["CSo22UICollectionViewLayout", "invalidateLayout"]
+- ["CSo22UICollectionViewLayout", "layoutAttributesForElementsInRect"]
+- ["CSo22UICollectionViewLayout", "layoutAttributesForItemAtIndexPath"]
+- ["CSo22UICollectionViewLayout", "layoutModel"]
+- ["CSo22UICollectionViewLayout", "layoutNeedsUpdate"]
+- ["CSo22UICollectionViewLayout", "prepareLayout"]
+- ["CSo22UICollectionViewLayout", "shouldInvalidateLayoutForBoundsChange"]
+- ["CSo22UICollectionViewLayout", ""]
+- !private ["CSo32UICollectionViewLayoutAttributes", "frame"]
+- !private ["CSo32UICollectionViewLayoutAttributes", "init"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps31UnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps10_ArrayType", "Generator"]
+- !private ["Ps10_ArrayType", "Index"]
+- !private ["Ps10_ArrayType", "SubSequence"]
+- !private ["Ps10_ArrayType", "_Element"]
+- !private ["Ps10_ArrayType", "append"]
+- !private ["Ps10_ArrayType", "count"]
+- !private ["Ps10_ArrayType", "enumerate"]
+- !private ["Ps10_ArrayType", "filter"]
+- !private ["Ps10_ArrayType", "init"]
+- !private ["Ps10_ArrayType", "subscript"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["Ps32_BuiltinStringLiteralConvertible", "init"]
+- !private ["Ps37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["Ps39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Generator"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "count"]
+- !private ["Ps24_DestructorSafeContainer", "enumerate"]
+- !private ["Ps24_DestructorSafeContainer", "filter"]
+- !private ["Ps24_DestructorSafeContainer", "init"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps14_Incrementable", "Distance"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps22_IntegerArithmeticType", "Distance"]
+- !private ["Ps22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["Ps12_IntegerType", "Distance"]
+- !private ["Ps12_IntegerType", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Distance"]
+- !private ["Ps21_ObjectiveCBridgeable", "Generator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "enumerate"]
+- !private ["Ps21_ObjectiveCBridgeable", "filter"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Ps22_RandomAccessAmbiguity", "Distance"]
+- !private ["Ps22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["Ps12_Reflectable", "Distance"]
+- !private ["Ps12_Reflectable", "Generator"]
+- !private ["Ps12_Reflectable", "Index"]
+- !private ["Ps12_Reflectable", "IntegerLiteralType"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "SubSequence"]
+- !private ["Ps12_Reflectable", "_Element"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "append"]
+- !private ["Ps12_Reflectable", "count"]
+- !private ["Ps12_Reflectable", "enumerate"]
+- !private ["Ps12_Reflectable", "filter"]
+- !private ["Ps12_Reflectable", "height"]
+- !private ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "intersects"]
+- !private ["Ps12_Reflectable", "subscript"]
+- !private ["Ps12_Reflectable", "width"]
+- !private ["Ps18_SignedIntegerType", "Distance"]
+- !private ["Ps18_SignedIntegerType", "IntegerLiteralType"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- !private "Ps23ArrayLiteralConvertible"
+- !private "Vs10ArraySlice"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "Ps11CVarArgType"
+- !private "Vs9Character"
+- "C6Chatto24ChatCollectionViewLayout"
+- "P6Chatto32ChatCollectionViewLayoutDelegate"
+- "V6Chatto29ChatCollectionViewLayoutModel"
+- !private "Ps14CollectionType"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Vs18EnumerateGenerator"
+- !private "Vs17EnumerateSequence"
+- "Ps9Equatable"
+- !private "Ps41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "Ps16ForwardIndexType"
+- !private "Ps13GeneratorType"
+- "Ps8Hashable"
+- !private "SQ"
+- !private "Ps9Indexable"
+- !private "Vs17IndexingGenerator"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "Ps14MirrorPathType"
+- !private "Ps21MutableCollectionType"
+- !private "Ps16MutableIndexable"
+- !private "Ps16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo11NSIndexPath"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- !private "Ps16OutputStreamType"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps30RangeReplaceableCollectionType"
+- !private "Ps12SequenceType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Vs5Slice"
+- !private "Vs12StaticString"
+- !private "Ps10Streamable"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps30StringInterpolationConvertible"
+- !private "Ps24StringLiteralConvertible"
+- "CSo22UICollectionViewLayout"
+- !private "CSo32UICollectionViewLayoutAttributes"
+- !private "PSo13UIDynamicItem"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps31UnicodeScalarLiteralConvertible"
+- !private "Ps10_ArrayType"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps32_BuiltinStringLiteralConvertible"
+- !private "Ps37_BuiltinUTF16StringLiteralConvertible"
+- !private "Ps39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "7b967fc3a3d8054061d1c0413e7e7874"

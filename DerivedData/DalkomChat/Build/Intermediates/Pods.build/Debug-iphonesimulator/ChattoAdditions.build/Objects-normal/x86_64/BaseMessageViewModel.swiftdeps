@@ -1,0 +1,279 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MessageViewModelStatus"
+- "MessageViewModelProtocol"
+- "DecoratedMessageViewModelProtocol"
+- "MessageViewModel"
+- "MessageViewModelDefaultBuilder"
+provides-nominal:
+- "O15ChattoAdditions22MessageViewModelStatus"
+- "P15ChattoAdditions24MessageViewModelProtocol"
+- "P15ChattoAdditions33DecoratedMessageViewModelProtocol"
+- "C15ChattoAdditions16MessageViewModel"
+- "C15ChattoAdditions30MessageViewModelDefaultBuilder"
+provides-member:
+- ["O15ChattoAdditions22MessageViewModelStatus", ""]
+- ["O15ChattoAdditions13MessageStatus", ""]
+- ["P15ChattoAdditions24MessageViewModelProtocol", ""]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", ""]
+- ["C15ChattoAdditions16MessageViewModel", ""]
+- ["C15ChattoAdditions30MessageViewModelDefaultBuilder", ""]
+- ["O15ChattoAdditions13MessageStatus", "viewModelStatus"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "isIncoming"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "showsTail"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "date"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "status"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "showsFailedIcon"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "messageModel"]
+provides-dynamic-lookup:
+depends-top-level:
+- "NSDateFormatter"
+- "StringLiteralType"
+- "MessageViewModelStatus"
+- "String"
+- "MessageViewModelDefaultBuilder"
+- "=="
+- "MessageViewModel"
+- "DecoratedMessageViewModelProtocol"
+- "Bool"
+- !private "BooleanLiteralType"
+- "MessageViewModelProtocol"
+- "MessageStatus"
+- "MessageModelProtocol"
+depends-member:
+- !private ["Ps9AnyObject", "MessageViewModel"]
+- ["Ps9AnyObject", "NSDateFormatter"]
+- ["Ps9AnyObject", "date"]
+- ["Ps9AnyObject", "dateFormat"]
+- !private ["Ps9AnyObject", "dateFormatter"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isIncoming"]
+- ["Ps9AnyObject", "messageModel"]
+- ["Ps9AnyObject", "showsFailedIcon"]
+- ["Ps9AnyObject", "showsTail"]
+- ["Ps9AnyObject", "status"]
+- !private ["Ps9AnyObject", "stringFromDate"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps22BidirectionalIndexType", "hashValue"]
+- !private ["Ps21BitwiseOperationsType", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "dateFormat"]
+- !private ["Ps11CVarArgType", "hashValue"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "stringFromDate"]
+- !private ["P6Chatto16ChatItemProtocol", "date"]
+- !private ["P6Chatto16ChatItemProtocol", "isIncoming"]
+- !private ["P6Chatto16ChatItemProtocol", "status"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps28CustomDebugStringConvertible", "dateFormat"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "stringFromDate"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "dateFormat"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "stringFromDate"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "Bool"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "MessageModelProtocol"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "MessageViewModelProtocol"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "MessageViewModelStatus"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "String"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "date"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "isIncoming"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "messageModel"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "messageViewModel"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "showsFailedIcon"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "showsTail"]
+- ["P15ChattoAdditions33DecoratedMessageViewModelProtocol", "status"]
+- ["Ps9Equatable", "Failed"]
+- !private ["Ps9Equatable", "MessageViewModelStatus"]
+- ["Ps9Equatable", "Sending"]
+- ["Ps9Equatable", "Success"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "dateFormat"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "stringFromDate"]
+- !private ["Ps9Equatable", "viewModelStatus"]
+- ["Ps9Equatable", ""]
+- !private ["Ps16ForwardIndexType", "hashValue"]
+- ["Ps8Hashable", "Failed"]
+- !private ["Ps8Hashable", "MessageViewModelStatus"]
+- ["Ps8Hashable", "Sending"]
+- ["Ps8Hashable", "Success"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "dateFormat"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "stringFromDate"]
+- !private ["Ps8Hashable", "viewModelStatus"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Ps21IntegerArithmeticType", "hashValue"]
+- !private ["Ps25IntegerLiteralConvertible", "hashValue"]
+- !private ["Ps11IntegerType", "hashValue"]
+- !private ["P15ChattoAdditions20MessageModelProtocol", "date"]
+- !private ["P15ChattoAdditions20MessageModelProtocol", "isIncoming"]
+- !private ["P15ChattoAdditions20MessageModelProtocol", "status"]
+- ["O15ChattoAdditions13MessageStatus", "Failed"]
+- ["O15ChattoAdditions13MessageStatus", "MessageViewModelStatus"]
+- ["O15ChattoAdditions13MessageStatus", "Sending"]
+- ["O15ChattoAdditions13MessageStatus", "Success"]
+- ["O15ChattoAdditions13MessageStatus", "viewModelStatus"]
+- ["C15ChattoAdditions16MessageViewModel", "Bool"]
+- ["C15ChattoAdditions16MessageViewModel", "MessageModelProtocol"]
+- ["C15ChattoAdditions16MessageViewModel", "MessageViewModelStatus"]
+- ["C15ChattoAdditions16MessageViewModel", "NSDateFormatter"]
+- ["C15ChattoAdditions16MessageViewModel", "String"]
+- ["C15ChattoAdditions16MessageViewModel", "date"]
+- !private ["C15ChattoAdditions16MessageViewModel", "date.storage"]
+- ["C15ChattoAdditions16MessageViewModel", "dateFormatter"]
+- ["C15ChattoAdditions16MessageViewModel", "deinit"]
+- ["C15ChattoAdditions16MessageViewModel", "init"]
+- ["C15ChattoAdditions16MessageViewModel", "isIncoming"]
+- ["C15ChattoAdditions16MessageViewModel", "messageModel"]
+- ["C15ChattoAdditions16MessageViewModel", "showsFailedIcon"]
+- ["C15ChattoAdditions16MessageViewModel", "showsTail"]
+- ["C15ChattoAdditions16MessageViewModel", "status"]
+- ["C15ChattoAdditions30MessageViewModelDefaultBuilder", "MessageModelProtocol"]
+- !private ["C15ChattoAdditions30MessageViewModelDefaultBuilder", "MessageViewModel"]
+- ["C15ChattoAdditions30MessageViewModelDefaultBuilder", "MessageViewModelProtocol"]
+- ["C15ChattoAdditions30MessageViewModelDefaultBuilder", "NSDateFormatter"]
+- ["C15ChattoAdditions30MessageViewModelDefaultBuilder", "createMessageViewModel"]
+- ["C15ChattoAdditions30MessageViewModelDefaultBuilder", "dateFormatter"]
+- ["C15ChattoAdditions30MessageViewModelDefaultBuilder", "deinit"]
+- ["C15ChattoAdditions30MessageViewModelDefaultBuilder", "init"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "Bool"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "MessageModelProtocol"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "MessageViewModelProtocol"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "MessageViewModelStatus"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "String"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "date"]
+- !private ["P15ChattoAdditions24MessageViewModelProtocol", "dateFormatter"]
+- !private ["P15ChattoAdditions24MessageViewModelProtocol", "init"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "isIncoming"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "messageModel"]
+- !private ["P15ChattoAdditions24MessageViewModelProtocol", "messageViewModel"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "showsFailedIcon"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "showsTail"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", "status"]
+- ["P15ChattoAdditions24MessageViewModelProtocol", ""]
+- ["O15ChattoAdditions22MessageViewModelStatus", "Failed"]
+- ["O15ChattoAdditions22MessageViewModelStatus", "Sending"]
+- ["O15ChattoAdditions22MessageViewModelStatus", "Success"]
+- ["O15ChattoAdditions22MessageViewModelStatus", "deinit"]
+- ["O15ChattoAdditions22MessageViewModelStatus", "hashValue"]
+- !private ["Ps14MirrorPathType", "hashValue"]
+- ["PSo8NSCoding", "dateFormat"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "stringFromDate"]
+- ["PSo9NSCopying", "dateFormat"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "stringFromDate"]
+- ["CSo15NSDateFormatter", "dateFormat"]
+- ["CSo15NSDateFormatter", "init"]
+- !private ["CSo15NSDateFormatter", "stringFromDate"]
+- ["CSo11NSFormatter", "dateFormat"]
+- ["CSo11NSFormatter", "init"]
+- !private ["CSo11NSFormatter", "stringFromDate"]
+- ["CSo8NSObject", "dateFormat"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "stringFromDate"]
+- ["PSo16NSObjectProtocol", "dateFormat"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "stringFromDate"]
+- !private ["Ps21RandomAccessIndexType", "hashValue"]
+- !private ["Ps17SignedIntegerType", "hashValue"]
+- !private ["Ps16SignedNumberType", "hashValue"]
+- !private ["Ps10Strideable", "hashValue"]
+- !private ["P6Chatto19UniqueIdentificable", "date"]
+- !private ["P6Chatto19UniqueIdentificable", "isIncoming"]
+- !private ["P6Chatto19UniqueIdentificable", "status"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps22_IntegerArithmeticType", "hashValue"]
+- !private ["Ps12_IntegerType", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps22_RandomAccessAmbiguity", "hashValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "hashValue"]
+- !private ["Ps18_SignedIntegerType", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps22BidirectionalIndexType"
+- !private "Ps21BitwiseOperationsType"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- !private "P6Chatto16ChatItemProtocol"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "P15ChattoAdditions33DecoratedMessageViewModelProtocol"
+- "Ps9Equatable"
+- !private "Ps16ForwardIndexType"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Ps21IntegerArithmeticType"
+- !private "Ps25IntegerLiteralConvertible"
+- !private "Ps11IntegerType"
+- !private "P15ChattoAdditions20MessageModelProtocol"
+- "O15ChattoAdditions13MessageStatus"
+- "C15ChattoAdditions16MessageViewModel"
+- "C15ChattoAdditions30MessageViewModelDefaultBuilder"
+- "P15ChattoAdditions24MessageViewModelProtocol"
+- "O15ChattoAdditions22MessageViewModelStatus"
+- !private "Ps14MirrorPathType"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "CSo15NSDateFormatter"
+- "CSo11NSFormatter"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Ps21RandomAccessIndexType"
+- !private "Ps17SignedIntegerType"
+- !private "Ps16SignedNumberType"
+- !private "Ps10Strideable"
+- !private "P6Chatto19UniqueIdentificable"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps33_BuiltinIntegerLiteralConvertible"
+- !private "Ps14_Incrementable"
+- !private "Ps22_IntegerArithmeticType"
+- !private "Ps12_IntegerType"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps22_RandomAccessAmbiguity"
+- !private "Ps12_Reflectable"
+- !private "Ps18_SignedIntegerType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "5659a5049606bacb671373116a876346"

@@ -1,0 +1,139 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotoMessageModelProtocol"
+- "PhotoMessageModel"
+provides-nominal:
+- "P15ChattoAdditions25PhotoMessageModelProtocol"
+- "C15ChattoAdditions17PhotoMessageModel"
+provides-member:
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", ""]
+- ["C15ChattoAdditions17PhotoMessageModel", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "PhotoMessageModel"
+- "String"
+- "CGSize"
+- "DecoratedMessageModelProtocol"
+- "MessageModelProtocol"
+- "PhotoMessageModelProtocol"
+- "UIImage"
+depends-member:
+- ["Ps9AnyObject", "date"]
+- ["Ps9AnyObject", "image"]
+- ["Ps9AnyObject", "imageSize"]
+- ["Ps9AnyObject", "isIncoming"]
+- ["Ps9AnyObject", "messageModel"]
+- ["Ps9AnyObject", "senderId"]
+- ["Ps9AnyObject", "status"]
+- ["Ps9AnyObject", "type"]
+- ["Ps9AnyObject", "uid"]
+- ["Ps9AnyObject", ""]
+- ["P6Chatto16ChatItemProtocol", "CGSize"]
+- ["P6Chatto16ChatItemProtocol", "UIImage"]
+- ["P6Chatto16ChatItemProtocol", "date"]
+- ["P6Chatto16ChatItemProtocol", "image"]
+- ["P6Chatto16ChatItemProtocol", "imageSize"]
+- ["P6Chatto16ChatItemProtocol", "isIncoming"]
+- ["P6Chatto16ChatItemProtocol", "messageModel"]
+- ["P6Chatto16ChatItemProtocol", "senderId"]
+- ["P6Chatto16ChatItemProtocol", "status"]
+- ["P6Chatto16ChatItemProtocol", "type"]
+- ["P6Chatto16ChatItemProtocol", "uid"]
+- ["P6Chatto16ChatItemProtocol", ""]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "CGSize"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "UIImage"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "date"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "image"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "imageSize"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "isIncoming"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "messageModel"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "senderId"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "status"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "type"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", "uid"]
+- ["P15ChattoAdditions29DecoratedMessageModelProtocol", ""]
+- ["P15ChattoAdditions20MessageModelProtocol", "CGSize"]
+- ["P15ChattoAdditions20MessageModelProtocol", "UIImage"]
+- ["P15ChattoAdditions20MessageModelProtocol", "date"]
+- ["P15ChattoAdditions20MessageModelProtocol", "image"]
+- ["P15ChattoAdditions20MessageModelProtocol", "imageSize"]
+- ["P15ChattoAdditions20MessageModelProtocol", "isIncoming"]
+- ["P15ChattoAdditions20MessageModelProtocol", "messageModel"]
+- ["P15ChattoAdditions20MessageModelProtocol", "senderId"]
+- ["P15ChattoAdditions20MessageModelProtocol", "status"]
+- ["P15ChattoAdditions20MessageModelProtocol", "type"]
+- ["P15ChattoAdditions20MessageModelProtocol", "uid"]
+- ["P15ChattoAdditions20MessageModelProtocol", ""]
+- ["C15ChattoAdditions17PhotoMessageModel", "CGSize"]
+- ["C15ChattoAdditions17PhotoMessageModel", "MessageModelProtocol"]
+- ["C15ChattoAdditions17PhotoMessageModel", "String"]
+- ["C15ChattoAdditions17PhotoMessageModel", "UIImage"]
+- ["C15ChattoAdditions17PhotoMessageModel", "date"]
+- ["C15ChattoAdditions17PhotoMessageModel", "deinit"]
+- ["C15ChattoAdditions17PhotoMessageModel", "image"]
+- ["C15ChattoAdditions17PhotoMessageModel", "imageSize"]
+- ["C15ChattoAdditions17PhotoMessageModel", "init"]
+- ["C15ChattoAdditions17PhotoMessageModel", "isIncoming"]
+- ["C15ChattoAdditions17PhotoMessageModel", "messageModel"]
+- ["C15ChattoAdditions17PhotoMessageModel", "senderId"]
+- ["C15ChattoAdditions17PhotoMessageModel", "status"]
+- ["C15ChattoAdditions17PhotoMessageModel", "type"]
+- ["C15ChattoAdditions17PhotoMessageModel", "uid"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "CGSize"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "UIImage"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "date"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "image"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "imageSize"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "isIncoming"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "messageModel"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "senderId"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "status"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "type"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", "uid"]
+- ["P15ChattoAdditions25PhotoMessageModelProtocol", ""]
+- ["P6Chatto19UniqueIdentificable", "CGSize"]
+- ["P6Chatto19UniqueIdentificable", "UIImage"]
+- ["P6Chatto19UniqueIdentificable", "date"]
+- ["P6Chatto19UniqueIdentificable", "image"]
+- ["P6Chatto19UniqueIdentificable", "imageSize"]
+- ["P6Chatto19UniqueIdentificable", "isIncoming"]
+- ["P6Chatto19UniqueIdentificable", "messageModel"]
+- ["P6Chatto19UniqueIdentificable", "senderId"]
+- ["P6Chatto19UniqueIdentificable", "status"]
+- ["P6Chatto19UniqueIdentificable", "type"]
+- ["P6Chatto19UniqueIdentificable", "uid"]
+- ["P6Chatto19UniqueIdentificable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "P6Chatto16ChatItemProtocol"
+- "P15ChattoAdditions29DecoratedMessageModelProtocol"
+- "P15ChattoAdditions20MessageModelProtocol"
+- "C15ChattoAdditions17PhotoMessageModel"
+- "P15ChattoAdditions25PhotoMessageModelProtocol"
+- "P6Chatto19UniqueIdentificable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "c607e849c9fa6a4642eabd0433871c08"

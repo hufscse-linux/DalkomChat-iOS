@@ -1,0 +1,17 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "4d9fd57c3d8aabc949ab0a1560649b29"
+build_time: [516615759, 596062000]
+inputs:
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/AccessoryViewRevealer.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chat Items/BaseChatItemPresenter.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/ChatCollectionViewLayout.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/ChatDataSourceProtocol.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chat Items/ChatItemProtocolDefinitions.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/ChatViewController+Changes.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/ChatViewController+Presenters.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/ChatViewController+Scrolling.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/ChatViewController.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/CollectionChanges.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chat Items/DummyChatItemPresenter.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/ChatController/KeyboardTracker.swift": [516615730, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/SerialTaskQueue.swift": [516615730, 0]

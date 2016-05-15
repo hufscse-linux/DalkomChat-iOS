@@ -1,0 +1,346 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PhotosInputCameraPicker"
+provides-nominal:
+- "C15ChattoAdditions23PhotosInputCameraPicker"
+provides-member:
+- ["C15ChattoAdditions23PhotosInputCameraPicker", ""]
+provides-dynamic-lookup:
+- "presentingController"
+- "imagePickerController"
+- "imagePickerControllerDidCancel"
+- "requestImage"
+depends-top-level:
+- "NSObject"
+- "Void"
+- "UIImagePickerController"
+- !private "StringLiteralType"
+- "PhotosInputCameraPicker"
+- "UIImage"
+- !private "BooleanLiteralType"
+- "UINavigationControllerDelegate"
+- "UIViewController"
+- "String"
+- "UIImagePickerControllerDelegate"
+- "AnyObject"
+depends-member:
+- !private ["Ps9AnyObject", "UIImagePickerController"]
+- !private ["Ps9AnyObject", "delegate"]
+- !private ["Ps9AnyObject", "dismissViewControllerAnimated"]
+- ["Ps9AnyObject", "finishPickingImage"]
+- ["Ps9AnyObject", "imagePickerController"]
+- ["Ps9AnyObject", "imagePickerControllerDidCancel"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isSourceTypeAvailable"]
+- ["Ps9AnyObject", "navigationController"]
+- ["Ps9AnyObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9AnyObject", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps9AnyObject", "presentViewController"]
+- ["Ps9AnyObject", "presentingController"]
+- ["Ps9AnyObject", "requestImage"]
+- ["Ps9AnyObject", "requestImageCompletion"]
+- !private ["Ps9AnyObject", "sourceType"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- !private ["Ps11CVarArgType", "UIImagePickerController"]
+- !private ["Ps11CVarArgType", "delegate"]
+- !private ["Ps11CVarArgType", "dismissViewControllerAnimated"]
+- ["Ps11CVarArgType", "finishPickingImage"]
+- ["Ps11CVarArgType", "imagePickerController"]
+- ["Ps11CVarArgType", "imagePickerControllerDidCancel"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isSourceTypeAvailable"]
+- ["Ps11CVarArgType", "navigationController"]
+- ["Ps11CVarArgType", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps11CVarArgType", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps11CVarArgType", "presentViewController"]
+- ["Ps11CVarArgType", "presentingController"]
+- ["Ps11CVarArgType", "requestImage"]
+- ["Ps11CVarArgType", "requestImageCompletion"]
+- !private ["Ps11CVarArgType", "sourceType"]
+- ["Ps11CVarArgType", ""]
+- ["Ps28CustomDebugStringConvertible", "Some"]
+- !private ["Ps28CustomDebugStringConvertible", "UIImagePickerController"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- !private ["Ps28CustomDebugStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps28CustomDebugStringConvertible", "finishPickingImage"]
+- ["Ps28CustomDebugStringConvertible", "imagePickerController"]
+- ["Ps28CustomDebugStringConvertible", "imagePickerControllerDidCancel"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isSourceTypeAvailable"]
+- ["Ps28CustomDebugStringConvertible", "navigationController"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps28CustomDebugStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps28CustomDebugStringConvertible", "presentViewController"]
+- ["Ps28CustomDebugStringConvertible", "presentingController"]
+- ["Ps28CustomDebugStringConvertible", "requestImage"]
+- ["Ps28CustomDebugStringConvertible", "requestImageCompletion"]
+- !private ["Ps28CustomDebugStringConvertible", "sourceType"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "UIImagePickerController"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- !private ["Ps23CustomStringConvertible", "dismissViewControllerAnimated"]
+- ["Ps23CustomStringConvertible", "finishPickingImage"]
+- ["Ps23CustomStringConvertible", "imagePickerController"]
+- ["Ps23CustomStringConvertible", "imagePickerControllerDidCancel"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isSourceTypeAvailable"]
+- ["Ps23CustomStringConvertible", "navigationController"]
+- ["Ps23CustomStringConvertible", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps23CustomStringConvertible", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps23CustomStringConvertible", "presentViewController"]
+- ["Ps23CustomStringConvertible", "presentingController"]
+- ["Ps23CustomStringConvertible", "requestImage"]
+- ["Ps23CustomStringConvertible", "requestImageCompletion"]
+- !private ["Ps23CustomStringConvertible", "sourceType"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "Camera"]
+- !private ["Ps9Equatable", "UIImagePickerController"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "delegate"]
+- !private ["Ps9Equatable", "dismissViewControllerAnimated"]
+- ["Ps9Equatable", "finishPickingImage"]
+- ["Ps9Equatable", "imagePickerController"]
+- ["Ps9Equatable", "imagePickerControllerDidCancel"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isSourceTypeAvailable"]
+- ["Ps9Equatable", "navigationController"]
+- ["Ps9Equatable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9Equatable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps9Equatable", "presentViewController"]
+- ["Ps9Equatable", "presentingController"]
+- ["Ps9Equatable", "requestImage"]
+- ["Ps9Equatable", "requestImageCompletion"]
+- !private ["Ps9Equatable", "sourceType"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "Camera"]
+- !private ["Ps8Hashable", "UIImagePickerController"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "delegate"]
+- !private ["Ps8Hashable", "dismissViewControllerAnimated"]
+- ["Ps8Hashable", "finishPickingImage"]
+- ["Ps8Hashable", "imagePickerController"]
+- ["Ps8Hashable", "imagePickerControllerDidCancel"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isSourceTypeAvailable"]
+- ["Ps8Hashable", "navigationController"]
+- ["Ps8Hashable", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps8Hashable", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["Ps8Hashable", "presentViewController"]
+- ["Ps8Hashable", "presentingController"]
+- ["Ps8Hashable", "requestImage"]
+- ["Ps8Hashable", "requestImageCompletion"]
+- !private ["Ps8Hashable", "sourceType"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo8NSCoding", "dismissViewControllerAnimated"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isSourceTypeAvailable"]
+- !private ["PSo8NSCoding", "presentViewController"]
+- !private ["PSo8NSCoding", "sourceType"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "dismissViewControllerAnimated"]
+- !private ["PSo26NSExtensionRequestHandling", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "isSourceTypeAvailable"]
+- !private ["PSo26NSExtensionRequestHandling", "presentViewController"]
+- !private ["PSo26NSExtensionRequestHandling", "sourceType"]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "UIImagePickerController"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "dismissViewControllerAnimated"]
+- ["CSo8NSObject", "finishPickingImage"]
+- ["CSo8NSObject", "imagePickerController"]
+- ["CSo8NSObject", "imagePickerControllerDidCancel"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isSourceTypeAvailable"]
+- ["CSo8NSObject", "navigationController"]
+- ["CSo8NSObject", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo8NSObject", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["CSo8NSObject", "presentViewController"]
+- ["CSo8NSObject", "presentingController"]
+- ["CSo8NSObject", "requestImage"]
+- ["CSo8NSObject", "requestImageCompletion"]
+- !private ["CSo8NSObject", "sourceType"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "UIImagePickerController"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "dismissViewControllerAnimated"]
+- ["PSo16NSObjectProtocol", "finishPickingImage"]
+- ["PSo16NSObjectProtocol", "imagePickerController"]
+- ["PSo16NSObjectProtocol", "imagePickerControllerDidCancel"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isSourceTypeAvailable"]
+- ["PSo16NSObjectProtocol", "navigationController"]
+- ["PSo16NSObjectProtocol", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16NSObjectProtocol", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo16NSObjectProtocol", "presentViewController"]
+- ["PSo16NSObjectProtocol", "presentingController"]
+- ["PSo16NSObjectProtocol", "requestImage"]
+- ["PSo16NSObjectProtocol", "requestImageCompletion"]
+- !private ["PSo16NSObjectProtocol", "sourceType"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Ps21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "AnyObject"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "String"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "UIImage"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "UIImagePickerController"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "UIViewController"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "Void"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "deinit"]
+- !private ["C15ChattoAdditions23PhotosInputCameraPicker", "finishPickingImage"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "imagePickerController"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "imagePickerControllerDidCancel"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "init"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "navigationController"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "navigationControllerSupportedInterfaceOrientations"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "presentingController"]
+- ["C15ChattoAdditions23PhotosInputCameraPicker", "requestImage"]
+- !private ["C15ChattoAdditions23PhotosInputCameraPicker", "requestImageCompletion"]
+- !private ["Ps16RawRepresentable", "Camera"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo21UIAppearanceContainer", "dismissViewControllerAnimated"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "isSourceTypeAvailable"]
+- !private ["PSo21UIAppearanceContainer", "presentViewController"]
+- !private ["PSo21UIAppearanceContainer", "sourceType"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "dismissViewControllerAnimated"]
+- !private ["PSo18UIContentContainer", "init"]
+- !private ["PSo18UIContentContainer", "isSourceTypeAvailable"]
+- !private ["PSo18UIContentContainer", "presentViewController"]
+- !private ["PSo18UIContentContainer", "sourceType"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "dismissViewControllerAnimated"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isSourceTypeAvailable"]
+- !private ["PSo18UIFocusEnvironment", "presentViewController"]
+- !private ["PSo18UIFocusEnvironment", "sourceType"]
+- !private ["CSo23UIImagePickerController", "delegate"]
+- !private ["CSo23UIImagePickerController", "dismissViewControllerAnimated"]
+- !private ["CSo23UIImagePickerController", "init"]
+- !private ["CSo23UIImagePickerController", "isSourceTypeAvailable"]
+- !private ["CSo23UIImagePickerController", "sourceType"]
+- !private ["PSo31UIImagePickerControllerDelegate", "UIImagePickerController"]
+- !private ["PSo31UIImagePickerControllerDelegate", "finishPickingImage"]
+- ["PSo31UIImagePickerControllerDelegate", "imagePickerController"]
+- ["PSo31UIImagePickerControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationController"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo31UIImagePickerControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo31UIImagePickerControllerDelegate", "presentingController"]
+- !private ["PSo31UIImagePickerControllerDelegate", "requestImageCompletion"]
+- ["PSo31UIImagePickerControllerDelegate", ""]
+- !private ["OSC33UIImagePickerControllerSourceType", "Camera"]
+- !private ["CSo22UINavigationController", "delegate"]
+- !private ["CSo22UINavigationController", "dismissViewControllerAnimated"]
+- !private ["CSo22UINavigationController", "init"]
+- !private ["CSo22UINavigationController", "isSourceTypeAvailable"]
+- !private ["CSo22UINavigationController", "sourceType"]
+- !private ["PSo30UINavigationControllerDelegate", "UIImagePickerController"]
+- !private ["PSo30UINavigationControllerDelegate", "finishPickingImage"]
+- ["PSo30UINavigationControllerDelegate", "imagePickerController"]
+- ["PSo30UINavigationControllerDelegate", "imagePickerControllerDidCancel"]
+- ["PSo30UINavigationControllerDelegate", "navigationController"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo30UINavigationControllerDelegate", "navigationControllerSupportedInterfaceOrientations"]
+- !private ["PSo30UINavigationControllerDelegate", "presentingController"]
+- !private ["PSo30UINavigationControllerDelegate", "requestImageCompletion"]
+- ["PSo30UINavigationControllerDelegate", ""]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["CSo11UIResponder", "dismissViewControllerAnimated"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isSourceTypeAvailable"]
+- !private ["CSo11UIResponder", "presentViewController"]
+- !private ["CSo11UIResponder", "sourceType"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["PSo16UIStateRestoring", "dismissViewControllerAnimated"]
+- !private ["PSo16UIStateRestoring", "init"]
+- !private ["PSo16UIStateRestoring", "isSourceTypeAvailable"]
+- !private ["PSo16UIStateRestoring", "presentViewController"]
+- !private ["PSo16UIStateRestoring", "sourceType"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["PSo18UITraitEnvironment", "dismissViewControllerAnimated"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "isSourceTypeAvailable"]
+- !private ["PSo18UITraitEnvironment", "presentViewController"]
+- !private ["PSo18UITraitEnvironment", "sourceType"]
+- !private ["CSo16UIViewController", "delegate"]
+- !private ["CSo16UIViewController", "dismissViewControllerAnimated"]
+- !private ["CSo16UIViewController", "init"]
+- !private ["CSo16UIViewController", "isSourceTypeAvailable"]
+- !private ["CSo16UIViewController", "presentViewController"]
+- !private ["CSo16UIViewController", "sourceType"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps12_Reflectable", "Some"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps21NilLiteralConvertible"
+- "Sq"
+- "C15ChattoAdditions23PhotosInputCameraPicker"
+- !private "Ps16RawRepresentable"
+- !private "Vs12StaticString"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo23UIImagePickerController"
+- "PSo31UIImagePickerControllerDelegate"
+- !private "OSC33UIImagePickerControllerSourceType"
+- !private "CSo22UINavigationController"
+- "PSo30UINavigationControllerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo16UIStateRestoring"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "2a336a63298a0a46dde23624ec498947"

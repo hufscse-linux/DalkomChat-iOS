@@ -1,0 +1,112 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Chatto-Swift.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Chatto-umbrella.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Chatto.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/ChattoAdditions/ChattoAdditions.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "BMACircleIconView.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BMACircleProgressIndicatorView.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+        },
+        {
+          'type': 'file',
+          'name': "BMACircleProgressView.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChattoAdditions-Swift.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/ChattoAdditions/ChattoAdditions.framework/Headers/ChattoAdditions-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChattoAdditions-umbrella.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "ChattoAdditions.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/ChattoAdditions/ChattoAdditions.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Pods_DalkomChat.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-DalkomChat-umbrella.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Pods-DalkomChat/Pods-DalkomChat-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_DalkomChat-Swift.h",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Pods_DalkomChat.framework/Headers/Pods_DalkomChat-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Pods_DalkomChat.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-DalkomChat.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

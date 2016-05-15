@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "1a5ed6439f443e040f718f6add5bb02c"
+build_time: [516615768, 1621000]
+inputs:
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DalkomChat/ViewController.swift": [516615656, 0]
+  "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DalkomChat/AppDelegate.swift": [516615656, 0]

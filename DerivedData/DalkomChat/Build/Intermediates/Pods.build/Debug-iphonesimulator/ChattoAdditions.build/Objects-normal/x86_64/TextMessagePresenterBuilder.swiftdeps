@@ -1,0 +1,243 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextMessagePresenterBuilder"
+provides-nominal:
+- "C15ChattoAdditions27TextMessagePresenterBuilder"
+provides-member:
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- "TextMessageCollectionViewCell"
+- !private "TextMessagePresenter"
+- "ViewModelBuilderProtocol"
+- !private "assert"
+- "BaseMessageCollectionViewCellStyleProtocol"
+- "TextMessageModelProtocol"
+- "TextMessageViewModelProtocol"
+- "ChatItemPresenterProtocol"
+- "ChatItemProtocol"
+- "TextMessagePresenterBuilder"
+- "TextMessageCollectionViewCellStyleProtocol"
+- "BaseMessageInteractionHandlerProtocol"
+- !private "BooleanLiteralType"
+- !private "dispatch_sync"
+- !private "dispatch_get_main_queue"
+- "ChatItemPresenterBuilderProtocol"
+- !private "TextMessageCollectionViewCellDefaultStyle"
+- "Bool"
+- !private "NSThread"
+- !private "BaseMessageCollectionViewCellDefaultSyle"
+- "NSCache"
+depends-member:
+- !private ["P6Chatto23AccessoryViewRevealable", "sizingCell"]
+- !private ["Ps9AnyObject", "BaseMessageCollectionViewCellDefaultSyle"]
+- ["Ps9AnyObject", "NSCache"]
+- !private ["Ps9AnyObject", "NSThread"]
+- !private ["Ps9AnyObject", "TextMessageCollectionViewCell"]
+- !private ["Ps9AnyObject", "TextMessageCollectionViewCellDefaultStyle"]
+- !private ["Ps9AnyObject", "TextMessagePresenter"]
+- !private ["Ps9AnyObject", "assert"]
+- !private ["Ps9AnyObject", "baseMessageStyle"]
+- ["Ps9AnyObject", "canHandleChatItem"]
+- ["Ps9AnyObject", "createPresenterWithChatItem"]
+- !private ["Ps9AnyObject", "dispatch_get_main_queue"]
+- !private ["Ps9AnyObject", "dispatch_sync"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "interactionHandler"]
+- !private ["Ps9AnyObject", "isMainThread"]
+- !private ["Ps9AnyObject", "layoutCache"]
+- ["Ps9AnyObject", "presenterType"]
+- !private ["Ps9AnyObject", "sizingCell"]
+- !private ["Ps9AnyObject", "textCellStyle"]
+- !private ["Ps9AnyObject", "viewModelBuilder"]
+- ["Ps9AnyObject", ""]
+- !private ["P15ChattoAdditions25BackgroundSizingQueryable", "sizingCell"]
+- !private ["C15ChattoAdditions29BaseMessageCollectionViewCell", "sizingCell"]
+- !private ["C15ChattoAdditions40BaseMessageCollectionViewCellDefaultSyle", "deinit"]
+- !private ["C15ChattoAdditions40BaseMessageCollectionViewCellDefaultSyle", "init"]
+- !private ["P15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocol", "init"]
+- ["P15ChattoAdditions37BaseMessageInteractionHandlerProtocol", "ViewModelT"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps11BooleanType", "_getBuiltinLogicValue"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "isMainThread"]
+- !private ["Ps11CVarArgType", "sizingCell"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "BaseMessageCollectionViewCellDefaultSyle"]
+- ["P6Chatto32ChatItemPresenterBuilderProtocol", "NSCache"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "NSThread"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "TextMessageCollectionViewCell"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "TextMessageCollectionViewCellDefaultStyle"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "TextMessagePresenter"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "assert"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "baseMessageStyle"]
+- ["P6Chatto32ChatItemPresenterBuilderProtocol", "canHandleChatItem"]
+- ["P6Chatto32ChatItemPresenterBuilderProtocol", "createPresenterWithChatItem"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "dispatch_get_main_queue"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "dispatch_sync"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "interactionHandler"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "layoutCache"]
+- ["P6Chatto32ChatItemPresenterBuilderProtocol", "presenterType"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "sizingCell"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "textCellStyle"]
+- !private ["P6Chatto32ChatItemPresenterBuilderProtocol", "viewModelBuilder"]
+- ["P6Chatto32ChatItemPresenterBuilderProtocol", ""]
+- !private ["P6Chatto25ChatItemPresenterProtocol", "init"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isMainThread"]
+- !private ["Ps28CustomDebugStringConvertible", "sizingCell"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isMainThread"]
+- !private ["Ps23CustomStringConvertible", "sizingCell"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isMainThread"]
+- !private ["Ps9Equatable", "sizingCell"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isMainThread"]
+- !private ["Ps8Hashable", "sizingCell"]
+- !private ["SQ", "deinit"]
+- ["CSo7NSCache", "init"]
+- !private ["PSo8NSCoding", "sizingCell"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isMainThread"]
+- !private ["CSo8NSObject", "sizingCell"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isMainThread"]
+- !private ["PSo16NSObjectProtocol", "sizingCell"]
+- !private ["CSo8NSThread", "isMainThread"]
+- !private ["Sq", "deinit"]
+- !private ["Vs12StaticString", "deinit"]
+- !private ["P15ChattoAdditions27TextBubbleViewStyleProtocol", "init"]
+- !private ["C15ChattoAdditions29TextMessageCollectionViewCell", "sizingCell"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "deinit"]
+- !private ["C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle", "init"]
+- !private ["C15ChattoAdditions20TextMessagePresenter", "deinit"]
+- !private ["C15ChattoAdditions20TextMessagePresenter", "init"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "BaseMessageCollectionViewCellDefaultSyle"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "BaseMessageCollectionViewCellStyleProtocol"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "Bool"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "ChatItemPresenterProtocol"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "ChatItemProtocol"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "InteractionHandlerT"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "ModelT"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "NSCache"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "NSThread"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "TextMessageCollectionViewCell"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "TextMessageCollectionViewCellDefaultStyle"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "TextMessageCollectionViewCellStyleProtocol"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "TextMessageModelProtocol"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "TextMessagePresenter"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "ViewModelBuilderT"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "ViewModelT"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "assert"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "baseMessageStyle"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "baseMessageStyle.storage"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "canHandleChatItem"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "createPresenterWithChatItem"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "deinit"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "dispatch_get_main_queue"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "dispatch_sync"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "init"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "interactionHandler"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "layoutCache"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "presenterType"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "sizingCell"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "sizingCell.storage"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "textCellStyle"]
+- !private ["C15ChattoAdditions27TextMessagePresenterBuilder", "textCellStyle.storage"]
+- ["C15ChattoAdditions27TextMessagePresenterBuilder", "viewModelBuilder"]
+- !private ["PSo29UIAccessibilityIdentification", "sizingCell"]
+- !private ["PSo12UIAppearance", "sizingCell"]
+- !private ["PSo21UIAppearanceContainer", "sizingCell"]
+- !private ["CSo24UICollectionReusableView", "sizingCell"]
+- !private ["CSo20UICollectionViewCell", "sizingCell"]
+- !private ["PSo17UICoordinateSpace", "sizingCell"]
+- !private ["PSo13UIDynamicItem", "sizingCell"]
+- !private ["PSo18UIFocusEnvironment", "sizingCell"]
+- !private ["PSo27UIGestureRecognizerDelegate", "sizingCell"]
+- !private ["CSo11UIResponder", "sizingCell"]
+- !private ["PSo18UITraitEnvironment", "sizingCell"]
+- !private ["CSo6UIView", "sizingCell"]
+- ["P15ChattoAdditions24ViewModelBuilderProtocol", "ModelT"]
+- ["P15ChattoAdditions24ViewModelBuilderProtocol", "ViewModelT"]
+- !private ["Ps33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["Ps12_Reflectable", "sizingCell"]
+depends-nominal:
+- !private "P6Chatto23AccessoryViewRevealable"
+- "Ps9AnyObject"
+- !private "P15ChattoAdditions25BackgroundSizingQueryable"
+- !private "C15ChattoAdditions29BaseMessageCollectionViewCell"
+- !private "C15ChattoAdditions40BaseMessageCollectionViewCellDefaultSyle"
+- !private "P15ChattoAdditions42BaseMessageCollectionViewCellStyleProtocol"
+- "P15ChattoAdditions37BaseMessageInteractionHandlerProtocol"
+- !private "Sb"
+- !private "Ps25BooleanLiteralConvertible"
+- !private "Ps11BooleanType"
+- "Ps11CVarArgType"
+- "P6Chatto32ChatItemPresenterBuilderProtocol"
+- !private "P6Chatto25ChatItemPresenterProtocol"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "SQ"
+- "CSo7NSCache"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "CSo8NSThread"
+- !private "Sq"
+- !private "Vs12StaticString"
+- !private "P15ChattoAdditions27TextBubbleViewStyleProtocol"
+- !private "C15ChattoAdditions29TextMessageCollectionViewCell"
+- !private "C15ChattoAdditions41TextMessageCollectionViewCellDefaultStyle"
+- !private "C15ChattoAdditions20TextMessagePresenter"
+- "C15ChattoAdditions27TextMessagePresenterBuilder"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo24UICollectionReusableView"
+- !private "CSo20UICollectionViewCell"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "P15ChattoAdditions24ViewModelBuilderProtocol"
+- !private "Ps33_BuiltinBooleanLiteralConvertible"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleIconView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/UI Components/CircleProgressIndicatorView/BMACircleProgressIndicatorView.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/ChattoAdditions/ChattoAdditions/Source/ChattoAdditions.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/ChattoAdditions/ChattoAdditions-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/ChattoAdditions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Modules/Chatto.swiftmodule/x86_64.swiftmodule"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Products/Debug-iphonesimulator/Chatto/Chatto.framework/Headers/Chatto-Swift.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Chatto/Chatto/Source/Chatto.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/Pods/Target Support Files/Chatto/Chatto-umbrella.h"
+- "/Users/leesunkyu/Documents/DalkomChat/DalkomChat/DerivedData/DalkomChat/Build/Intermediates/Pods.build/Debug-iphonesimulator/Chatto.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "58f2adf087a228d0c79056d7da39037b"

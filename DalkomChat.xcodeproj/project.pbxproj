@@ -1,0 +1,702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8765B5C299E8167F376D6E5E /* Pods_DalkomChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6011661C6BC43A40B846E8F /* Pods_DalkomChatTests.framework */; };
+		9452522EC68247E070B9696E /* Pods_DalkomChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4476EBC2B41489CD11090CD8 /* Pods_DalkomChat.framework */; };
+		9F2453621CE868E800093296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2453611CE868E800093296 /* AppDelegate.swift */; };
+		9F2453641CE868E800093296 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2453631CE868E800093296 /* ViewController.swift */; };
+		9F2453671CE868E800093296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F2453651CE868E800093296 /* Main.storyboard */; };
+		9F24536A1CE868E800093296 /* DalkomChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9F2453681CE868E800093296 /* DalkomChat.xcdatamodeld */; };
+		9F24536C1CE868E800093296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F24536B1CE868E800093296 /* Assets.xcassets */; };
+		9F24536F1CE868E800093296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F24536D1CE868E800093296 /* LaunchScreen.storyboard */; };
+		9F24537A1CE868E800093296 /* DalkomChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2453791CE868E800093296 /* DalkomChatTests.swift */; };
+		9F2453851CE868E800093296 /* DalkomChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2453841CE868E800093296 /* DalkomChatUITests.swift */; };
+		B2C4E0DC6471D390EFCD87FF /* Pods_DalkomChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E27EF9D026C48B428328FD6 /* Pods_DalkomChatUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F2453761CE868E800093296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2453561CE868E800093296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F24535D1CE868E800093296;
+			remoteInfo = DalkomChat;
+		};
+		9F2453811CE868E800093296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F2453561CE868E800093296 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F24535D1CE868E800093296;
+			remoteInfo = DalkomChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		151329A68AC35FC4089A4536 /* Pods-DalkomChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DalkomChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DalkomChatUITests/Pods-DalkomChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36D0C80F86422DB429E7A970 /* Pods-DalkomChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DalkomChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DalkomChatUITests/Pods-DalkomChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4476EBC2B41489CD11090CD8 /* Pods_DalkomChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DalkomChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E79A12CAA26BD65DAB1ABD6 /* Pods-DalkomChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DalkomChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DalkomChatTests/Pods-DalkomChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E27EF9D026C48B428328FD6 /* Pods_DalkomChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DalkomChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A27C5D9B343566021A236E3 /* Pods-DalkomChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DalkomChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-DalkomChat/Pods-DalkomChat.release.xcconfig"; sourceTree = "<group>"; };
+		9F24535E1CE868E800093296 /* DalkomChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DalkomChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2453611CE868E800093296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F2453631CE868E800093296 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F2453661CE868E800093296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F2453691CE868E800093296 /* DalkomChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DalkomChat.xcdatamodel; sourceTree = "<group>"; };
+		9F24536B1CE868E800093296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F24536E1CE868E800093296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F2453701CE868E800093296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2453751CE868E800093296 /* DalkomChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DalkomChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2453791CE868E800093296 /* DalkomChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalkomChatTests.swift; sourceTree = "<group>"; };
+		9F24537B1CE868E800093296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F2453801CE868E800093296 /* DalkomChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DalkomChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2453841CE868E800093296 /* DalkomChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DalkomChatUITests.swift; sourceTree = "<group>"; };
+		9F2453861CE868E800093296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE6A7FC5B3F842B237A9E484 /* Pods-DalkomChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DalkomChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DalkomChat/Pods-DalkomChat.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C1491659014A00B4C2B1DC /* Pods-DalkomChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DalkomChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DalkomChatTests/Pods-DalkomChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6011661C6BC43A40B846E8F /* Pods_DalkomChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DalkomChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F24535B1CE868E800093296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9452522EC68247E070B9696E /* Pods_DalkomChat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2453721CE868E800093296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8765B5C299E8167F376D6E5E /* Pods_DalkomChatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F24537D1CE868E800093296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2C4E0DC6471D390EFCD87FF /* Pods_DalkomChatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62F446B808EED510645B58BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE6A7FC5B3F842B237A9E484 /* Pods-DalkomChat.debug.xcconfig */,
+				9A27C5D9B343566021A236E3 /* Pods-DalkomChat.release.xcconfig */,
+				6E79A12CAA26BD65DAB1ABD6 /* Pods-DalkomChatTests.debug.xcconfig */,
+				E4C1491659014A00B4C2B1DC /* Pods-DalkomChatTests.release.xcconfig */,
+				36D0C80F86422DB429E7A970 /* Pods-DalkomChatUITests.debug.xcconfig */,
+				151329A68AC35FC4089A4536 /* Pods-DalkomChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		635F19F5BEF08371F8C6947F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4476EBC2B41489CD11090CD8 /* Pods_DalkomChat.framework */,
+				E6011661C6BC43A40B846E8F /* Pods_DalkomChatTests.framework */,
+				8E27EF9D026C48B428328FD6 /* Pods_DalkomChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F2453551CE868E800093296 = {
+			isa = PBXGroup;
+			children = (
+				9F2453601CE868E800093296 /* DalkomChat */,
+				9F2453781CE868E800093296 /* DalkomChatTests */,
+				9F2453831CE868E800093296 /* DalkomChatUITests */,
+				9F24535F1CE868E800093296 /* Products */,
+				62F446B808EED510645B58BB /* Pods */,
+				635F19F5BEF08371F8C6947F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9F24535F1CE868E800093296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F24535E1CE868E800093296 /* DalkomChat.app */,
+				9F2453751CE868E800093296 /* DalkomChatTests.xctest */,
+				9F2453801CE868E800093296 /* DalkomChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F2453601CE868E800093296 /* DalkomChat */ = {
+			isa = PBXGroup;
+			children = (
+				9F2453611CE868E800093296 /* AppDelegate.swift */,
+				9F2453631CE868E800093296 /* ViewController.swift */,
+				9F2453651CE868E800093296 /* Main.storyboard */,
+				9F24536B1CE868E800093296 /* Assets.xcassets */,
+				9F24536D1CE868E800093296 /* LaunchScreen.storyboard */,
+				9F2453701CE868E800093296 /* Info.plist */,
+				9F2453681CE868E800093296 /* DalkomChat.xcdatamodeld */,
+			);
+			path = DalkomChat;
+			sourceTree = "<group>";
+		};
+		9F2453781CE868E800093296 /* DalkomChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2453791CE868E800093296 /* DalkomChatTests.swift */,
+				9F24537B1CE868E800093296 /* Info.plist */,
+			);
+			path = DalkomChatTests;
+			sourceTree = "<group>";
+		};
+		9F2453831CE868E800093296 /* DalkomChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F2453841CE868E800093296 /* DalkomChatUITests.swift */,
+				9F2453861CE868E800093296 /* Info.plist */,
+			);
+			path = DalkomChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F24535D1CE868E800093296 /* DalkomChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F2453891CE868E800093296 /* Build configuration list for PBXNativeTarget "DalkomChat" */;
+			buildPhases = (
+				DF95E914BB7AEEB42FF567B5 /* 📦 Check Pods Manifest.lock */,
+				9F24535A1CE868E800093296 /* Sources */,
+				9F24535B1CE868E800093296 /* Frameworks */,
+				9F24535C1CE868E800093296 /* Resources */,
+				38806B30CD7D1D03E652D346 /* 📦 Embed Pods Frameworks */,
+				67D801B7635EC6506A4A6D11 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DalkomChat;
+			productName = DalkomChat;
+			productReference = 9F24535E1CE868E800093296 /* DalkomChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F2453741CE868E800093296 /* DalkomChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F24538C1CE868E800093296 /* Build configuration list for PBXNativeTarget "DalkomChatTests" */;
+			buildPhases = (
+				81DE8A1E77B84C0A2AF0DDFE /* 📦 Check Pods Manifest.lock */,
+				9F2453711CE868E800093296 /* Sources */,
+				9F2453721CE868E800093296 /* Frameworks */,
+				9F2453731CE868E800093296 /* Resources */,
+				225777DE6B76900AA45ACA13 /* 📦 Embed Pods Frameworks */,
+				3EDF28E5B313B9AF1973D753 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2453771CE868E800093296 /* PBXTargetDependency */,
+			);
+			name = DalkomChatTests;
+			productName = DalkomChatTests;
+			productReference = 9F2453751CE868E800093296 /* DalkomChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F24537F1CE868E800093296 /* DalkomChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F24538F1CE868E800093296 /* Build configuration list for PBXNativeTarget "DalkomChatUITests" */;
+			buildPhases = (
+				7D2F407E97D63FDC78D4E8DD /* 📦 Check Pods Manifest.lock */,
+				9F24537C1CE868E800093296 /* Sources */,
+				9F24537D1CE868E800093296 /* Frameworks */,
+				9F24537E1CE868E800093296 /* Resources */,
+				501892E57ECEC3BF658FC4FA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2453821CE868E800093296 /* PBXTargetDependency */,
+			);
+			name = DalkomChatUITests;
+			productName = DalkomChatUITests;
+			productReference = 9F2453801CE868E800093296 /* DalkomChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F2453561CE868E800093296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "SunKyu Lee";
+				TargetAttributes = {
+					9F24535D1CE868E800093296 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9F2453741CE868E800093296 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F24535D1CE868E800093296;
+					};
+					9F24537F1CE868E800093296 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9F24535D1CE868E800093296;
+					};
+				};
+			};
+			buildConfigurationList = 9F2453591CE868E800093296 /* Build configuration list for PBXProject "DalkomChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F2453551CE868E800093296;
+			productRefGroup = 9F24535F1CE868E800093296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F24535D1CE868E800093296 /* DalkomChat */,
+				9F2453741CE868E800093296 /* DalkomChatTests */,
+				9F24537F1CE868E800093296 /* DalkomChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F24535C1CE868E800093296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F24536F1CE868E800093296 /* LaunchScreen.storyboard in Resources */,
+				9F24536C1CE868E800093296 /* Assets.xcassets in Resources */,
+				9F2453671CE868E800093296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2453731CE868E800093296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F24537E1CE868E800093296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		225777DE6B76900AA45ACA13 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DalkomChatTests/Pods-DalkomChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38806B30CD7D1D03E652D346 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DalkomChat/Pods-DalkomChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3EDF28E5B313B9AF1973D753 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DalkomChatTests/Pods-DalkomChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		501892E57ECEC3BF658FC4FA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DalkomChatUITests/Pods-DalkomChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67D801B7635EC6506A4A6D11 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DalkomChat/Pods-DalkomChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D2F407E97D63FDC78D4E8DD /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81DE8A1E77B84C0A2AF0DDFE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF95E914BB7AEEB42FF567B5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F24535A1CE868E800093296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F24536A1CE868E800093296 /* DalkomChat.xcdatamodeld in Sources */,
+				9F2453641CE868E800093296 /* ViewController.swift in Sources */,
+				9F2453621CE868E800093296 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2453711CE868E800093296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F24537A1CE868E800093296 /* DalkomChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F24537C1CE868E800093296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F2453851CE868E800093296 /* DalkomChatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F2453771CE868E800093296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F24535D1CE868E800093296 /* DalkomChat */;
+			targetProxy = 9F2453761CE868E800093296 /* PBXContainerItemProxy */;
+		};
+		9F2453821CE868E800093296 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F24535D1CE868E800093296 /* DalkomChat */;
+			targetProxy = 9F2453811CE868E800093296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F2453651CE868E800093296 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F2453661CE868E800093296 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F24536D1CE868E800093296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F24536E1CE868E800093296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F2453871CE868E800093296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9F2453881CE868E800093296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F24538A1CE868E800093296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6A7FC5B3F842B237A9E484 /* Pods-DalkomChat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DalkomChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalkom.DalkomChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9F24538B1CE868E800093296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A27C5D9B343566021A236E3 /* Pods-DalkomChat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DalkomChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalkom.DalkomChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9F24538D1CE868E800093296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E79A12CAA26BD65DAB1ABD6 /* Pods-DalkomChatTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DalkomChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalkom.DalkomChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DalkomChat.app/DalkomChat";
+			};
+			name = Debug;
+		};
+		9F24538E1CE868E800093296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C1491659014A00B4C2B1DC /* Pods-DalkomChatTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DalkomChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalkom.DalkomChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DalkomChat.app/DalkomChat";
+			};
+			name = Release;
+		};
+		9F2453901CE868E800093296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36D0C80F86422DB429E7A970 /* Pods-DalkomChatUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DalkomChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalkom.DalkomChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DalkomChat;
+			};
+			name = Debug;
+		};
+		9F2453911CE868E800093296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 151329A68AC35FC4089A4536 /* Pods-DalkomChatUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DalkomChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dalkom.DalkomChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DalkomChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F2453591CE868E800093296 /* Build configuration list for PBXProject "DalkomChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2453871CE868E800093296 /* Debug */,
+				9F2453881CE868E800093296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F2453891CE868E800093296 /* Build configuration list for PBXNativeTarget "DalkomChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F24538A1CE868E800093296 /* Debug */,
+				9F24538B1CE868E800093296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F24538C1CE868E800093296 /* Build configuration list for PBXNativeTarget "DalkomChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F24538D1CE868E800093296 /* Debug */,
+				9F24538E1CE868E800093296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F24538F1CE868E800093296 /* Build configuration list for PBXNativeTarget "DalkomChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F2453901CE868E800093296 /* Debug */,
+				9F2453911CE868E800093296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9F2453681CE868E800093296 /* DalkomChat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9F2453691CE868E800093296 /* DalkomChat.xcdatamodel */,
+			);
+			currentVersion = 9F2453691CE868E800093296 /* DalkomChat.xcdatamodel */;
+			path = DalkomChat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9F2453561CE868E800093296 /* Project object */;
+}
